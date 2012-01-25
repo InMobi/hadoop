@@ -1,0 +1,535 @@
+2011-11-21 16:43:18,395 INFO org.apache.hadoop.mapred.JobTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting JobTracker
+STARTUP_MSG:   host = l903495.mkhoj.com/10.14.100.80
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.2-cdh3u0
+STARTUP_MSG:   build =  -r 81256ad0f2e4ab2bd34b04f53d25a6c23686dd14; compiled by 'hudson' on Fri Mar 25 19:56:23 PDT 2011
+************************************************************/
+2011-11-21 16:43:19,369 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2011-11-21 16:43:19,372 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Starting expired delegation token remover thread, tokenRemoverScanInterval=60 min(s)
+2011-11-21 16:43:19,372 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2011-11-21 16:43:19,373 INFO org.apache.hadoop.mapred.JobTracker: Scheduler configured with (memSizeForMapSlotOnJT, memSizeForReduceSlotOnJT, limitMaxMemForMapTasks, limitMaxMemForReduceTasks) (-1, -1, -1, -1)
+2011-11-21 16:43:19,375 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2011-11-21 16:43:19,554 INFO org.apache.hadoop.mapred.JobTracker: Starting jobtracker with owner as srikanth.sundarrajan
+2011-11-21 16:43:19,616 INFO org.apache.hadoop.ipc.Server: Starting Socket Reader #1 for port 50300
+2011-11-21 16:43:19,621 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=JobTracker, port=50300
+2011-11-21 16:43:19,625 INFO org.apache.hadoop.ipc.metrics.RpcDetailedMetrics: Initializing RPC Metrics with hostName=JobTracker, port=50300
+2011-11-21 16:43:19,696 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2011-11-21 16:43:19,814 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2011-11-21 16:43:19,925 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2011-11-21 16:43:20,038 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50030
+2011-11-21 16:43:20,042 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50030 webServer.getConnectors()[0].getLocalPort() returned 50030
+2011-11-21 16:43:20,042 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50030
+2011-11-21 16:43:20,042 INFO org.mortbay.log: jetty-6.1.26
+2011-11-21 16:43:20,733 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50030
+2011-11-21 16:43:20,740 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2011-11-21 16:43:20,750 INFO org.apache.hadoop.mapred.JobTracker: JobTracker up at: 50300
+2011-11-21 16:43:20,750 INFO org.apache.hadoop.mapred.JobTracker: JobTracker webserver: 50030
+2011-11-21 16:43:21,275 INFO org.apache.hadoop.mapred.JobTracker: Creating the system directory
+2011-11-21 16:43:21,364 INFO org.apache.hadoop.mapred.JobHistory: Creating DONE folder at file:/opt/hadoop-0.20.2-cdh3u0/logs/history/done
+2011-11-21 16:43:21,431 INFO org.apache.hadoop.mapred.CompletedJobStatusStore: Completed job store is inactive
+2011-11-21 16:43:21,550 WARN org.apache.hadoop.hdfs.DFSClient: DataStreamer Exception: org.apache.hadoop.ipc.RemoteException: java.io.IOException: File /tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1469)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:557)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1415)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1411)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1115)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1409)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:1104)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:226)
+	at $Proxy4.addBlock(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at $Proxy4.addBlock(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.locateFollowingBlock(DFSClient.java:3185)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.nextBlockOutputStream(DFSClient.java:3055)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.access$1900(DFSClient.java:2305)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream$DataStreamer.run(DFSClient.java:2500)
+
+2011-11-21 16:43:21,551 WARN org.apache.hadoop.hdfs.DFSClient: Error Recovery for block null bad datanode[0] nodes == null
+2011-11-21 16:43:21,551 WARN org.apache.hadoop.hdfs.DFSClient: Could not get block locations. Source file "/tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info" - Aborting...
+2011-11-21 16:43:21,552 WARN org.apache.hadoop.mapred.JobTracker: Writing to file hdfs://localhost/tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info failed!
+2011-11-21 16:43:21,552 WARN org.apache.hadoop.mapred.JobTracker: FileSystem is not ready yet!
+2011-11-21 16:43:21,576 WARN org.apache.hadoop.mapred.JobTracker: Failed to initialize recovery manager. 
+org.apache.hadoop.ipc.RemoteException: java.io.IOException: File /tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1469)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:557)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1415)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1411)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1115)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1409)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:1104)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:226)
+	at $Proxy4.addBlock(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at $Proxy4.addBlock(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.locateFollowingBlock(DFSClient.java:3185)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.nextBlockOutputStream(DFSClient.java:3055)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.access$1900(DFSClient.java:2305)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream$DataStreamer.run(DFSClient.java:2500)
+2011-11-21 16:43:31,577 WARN org.apache.hadoop.mapred.JobTracker: Retrying...
+2011-11-21 16:43:31,602 WARN org.apache.hadoop.hdfs.DFSClient: DataStreamer Exception: org.apache.hadoop.ipc.RemoteException: java.io.IOException: File /tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1469)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:557)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1415)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1411)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1115)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1409)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:1104)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:226)
+	at $Proxy4.addBlock(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at $Proxy4.addBlock(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.locateFollowingBlock(DFSClient.java:3185)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.nextBlockOutputStream(DFSClient.java:3055)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.access$1900(DFSClient.java:2305)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream$DataStreamer.run(DFSClient.java:2500)
+
+2011-11-21 16:43:31,602 WARN org.apache.hadoop.hdfs.DFSClient: Error Recovery for block null bad datanode[0] nodes == null
+2011-11-21 16:43:31,602 WARN org.apache.hadoop.hdfs.DFSClient: Could not get block locations. Source file "/tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info" - Aborting...
+2011-11-21 16:43:31,603 WARN org.apache.hadoop.mapred.JobTracker: Writing to file hdfs://localhost/tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info failed!
+2011-11-21 16:43:31,603 WARN org.apache.hadoop.mapred.JobTracker: FileSystem is not ready yet!
+2011-11-21 16:43:31,605 WARN org.apache.hadoop.mapred.JobTracker: Failed to initialize recovery manager. 
+org.apache.hadoop.ipc.RemoteException: java.io.IOException: File /tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1469)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:557)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1415)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1411)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1115)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1409)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:1104)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:226)
+	at $Proxy4.addBlock(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at $Proxy4.addBlock(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.locateFollowingBlock(DFSClient.java:3185)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.nextBlockOutputStream(DFSClient.java:3055)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.access$1900(DFSClient.java:2305)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream$DataStreamer.run(DFSClient.java:2500)
+2011-11-21 16:43:41,606 WARN org.apache.hadoop.mapred.JobTracker: Retrying...
+2011-11-21 16:43:41,630 WARN org.apache.hadoop.hdfs.DFSClient: DataStreamer Exception: org.apache.hadoop.ipc.RemoteException: java.io.IOException: File /tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1469)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:557)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1415)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1411)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1115)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1409)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:1104)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:226)
+	at $Proxy4.addBlock(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at $Proxy4.addBlock(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.locateFollowingBlock(DFSClient.java:3185)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.nextBlockOutputStream(DFSClient.java:3055)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.access$1900(DFSClient.java:2305)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream$DataStreamer.run(DFSClient.java:2500)
+
+2011-11-21 16:43:41,630 WARN org.apache.hadoop.hdfs.DFSClient: Error Recovery for block null bad datanode[0] nodes == null
+2011-11-21 16:43:41,630 WARN org.apache.hadoop.hdfs.DFSClient: Could not get block locations. Source file "/tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info" - Aborting...
+2011-11-21 16:43:41,630 WARN org.apache.hadoop.mapred.JobTracker: Writing to file hdfs://localhost/tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info failed!
+2011-11-21 16:43:41,630 WARN org.apache.hadoop.mapred.JobTracker: FileSystem is not ready yet!
+2011-11-21 16:43:41,633 WARN org.apache.hadoop.mapred.JobTracker: Failed to initialize recovery manager. 
+org.apache.hadoop.ipc.RemoteException: java.io.IOException: File /tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1469)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:557)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1415)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1411)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1115)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1409)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:1104)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:226)
+	at $Proxy4.addBlock(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at $Proxy4.addBlock(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.locateFollowingBlock(DFSClient.java:3185)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.nextBlockOutputStream(DFSClient.java:3055)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.access$1900(DFSClient.java:2305)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream$DataStreamer.run(DFSClient.java:2500)
+2011-11-21 16:43:51,639 WARN org.apache.hadoop.mapred.JobTracker: Retrying...
+2011-11-21 16:43:51,806 WARN org.apache.hadoop.hdfs.DFSClient: DataStreamer Exception: org.apache.hadoop.ipc.RemoteException: java.io.IOException: File /tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1469)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:557)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1415)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1411)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1115)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1409)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:1104)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:226)
+	at $Proxy4.addBlock(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at $Proxy4.addBlock(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.locateFollowingBlock(DFSClient.java:3185)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.nextBlockOutputStream(DFSClient.java:3055)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.access$1900(DFSClient.java:2305)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream$DataStreamer.run(DFSClient.java:2500)
+
+2011-11-21 16:43:51,868 WARN org.apache.hadoop.hdfs.DFSClient: Error Recovery for block null bad datanode[0] nodes == null
+2011-11-21 16:43:51,868 WARN org.apache.hadoop.hdfs.DFSClient: Could not get block locations. Source file "/tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info" - Aborting...
+2011-11-21 16:43:51,869 WARN org.apache.hadoop.mapred.JobTracker: Writing to file hdfs://localhost/tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info failed!
+2011-11-21 16:43:51,869 WARN org.apache.hadoop.mapred.JobTracker: FileSystem is not ready yet!
+2011-11-21 16:43:51,871 WARN org.apache.hadoop.mapred.JobTracker: Failed to initialize recovery manager. 
+org.apache.hadoop.ipc.RemoteException: java.io.IOException: File /tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1469)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:557)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1415)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1411)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1115)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1409)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:1104)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:226)
+	at $Proxy4.addBlock(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at $Proxy4.addBlock(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.locateFollowingBlock(DFSClient.java:3185)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.nextBlockOutputStream(DFSClient.java:3055)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.access$1900(DFSClient.java:2305)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream$DataStreamer.run(DFSClient.java:2500)
+2011-11-21 16:44:01,871 WARN org.apache.hadoop.mapred.JobTracker: Retrying...
+2011-11-21 16:44:01,894 WARN org.apache.hadoop.hdfs.DFSClient: DataStreamer Exception: org.apache.hadoop.ipc.RemoteException: java.io.IOException: File /tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1469)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:557)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1415)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1411)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1115)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1409)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:1104)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:226)
+	at $Proxy4.addBlock(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at $Proxy4.addBlock(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.locateFollowingBlock(DFSClient.java:3185)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.nextBlockOutputStream(DFSClient.java:3055)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.access$1900(DFSClient.java:2305)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream$DataStreamer.run(DFSClient.java:2500)
+
+2011-11-21 16:44:01,894 WARN org.apache.hadoop.hdfs.DFSClient: Error Recovery for block null bad datanode[0] nodes == null
+2011-11-21 16:44:01,894 WARN org.apache.hadoop.hdfs.DFSClient: Could not get block locations. Source file "/tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info" - Aborting...
+2011-11-21 16:44:01,895 WARN org.apache.hadoop.mapred.JobTracker: Writing to file hdfs://localhost/tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info failed!
+2011-11-21 16:44:01,895 WARN org.apache.hadoop.mapred.JobTracker: FileSystem is not ready yet!
+2011-11-21 16:44:01,898 WARN org.apache.hadoop.mapred.JobTracker: Failed to initialize recovery manager. 
+org.apache.hadoop.ipc.RemoteException: java.io.IOException: File /tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1469)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:557)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1415)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1411)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1115)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1409)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:1104)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:226)
+	at $Proxy4.addBlock(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at $Proxy4.addBlock(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.locateFollowingBlock(DFSClient.java:3185)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.nextBlockOutputStream(DFSClient.java:3055)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.access$1900(DFSClient.java:2305)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream$DataStreamer.run(DFSClient.java:2500)
+2011-11-21 16:44:11,899 WARN org.apache.hadoop.mapred.JobTracker: Retrying...
+2011-11-21 16:44:11,923 WARN org.apache.hadoop.hdfs.DFSClient: DataStreamer Exception: org.apache.hadoop.ipc.RemoteException: java.io.IOException: File /tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1469)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:557)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1415)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1411)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1115)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1409)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:1104)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:226)
+	at $Proxy4.addBlock(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at $Proxy4.addBlock(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.locateFollowingBlock(DFSClient.java:3185)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.nextBlockOutputStream(DFSClient.java:3055)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.access$1900(DFSClient.java:2305)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream$DataStreamer.run(DFSClient.java:2500)
+
+2011-11-21 16:44:11,924 WARN org.apache.hadoop.hdfs.DFSClient: Error Recovery for block null bad datanode[0] nodes == null
+2011-11-21 16:44:11,924 WARN org.apache.hadoop.hdfs.DFSClient: Could not get block locations. Source file "/tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info" - Aborting...
+2011-11-21 16:44:11,924 WARN org.apache.hadoop.mapred.JobTracker: Writing to file hdfs://localhost/tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info failed!
+2011-11-21 16:44:11,924 WARN org.apache.hadoop.mapred.JobTracker: FileSystem is not ready yet!
+2011-11-21 16:44:11,937 WARN org.apache.hadoop.mapred.JobTracker: Failed to initialize recovery manager. 
+org.apache.hadoop.ipc.RemoteException: java.io.IOException: File /tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1469)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:557)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1415)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1411)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1115)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1409)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:1104)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:226)
+	at $Proxy4.addBlock(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at $Proxy4.addBlock(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.locateFollowingBlock(DFSClient.java:3185)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.nextBlockOutputStream(DFSClient.java:3055)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.access$1900(DFSClient.java:2305)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream$DataStreamer.run(DFSClient.java:2500)
+2011-11-21 16:44:21,938 WARN org.apache.hadoop.mapred.JobTracker: Retrying...
+2011-11-21 16:44:21,959 WARN org.apache.hadoop.hdfs.DFSClient: DataStreamer Exception: org.apache.hadoop.ipc.RemoteException: java.io.IOException: File /tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1469)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:557)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1415)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1411)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1115)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1409)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:1104)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:226)
+	at $Proxy4.addBlock(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at $Proxy4.addBlock(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.locateFollowingBlock(DFSClient.java:3185)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.nextBlockOutputStream(DFSClient.java:3055)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.access$1900(DFSClient.java:2305)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream$DataStreamer.run(DFSClient.java:2500)
+
+2011-11-21 16:44:21,959 WARN org.apache.hadoop.hdfs.DFSClient: Error Recovery for block null bad datanode[0] nodes == null
+2011-11-21 16:44:21,959 WARN org.apache.hadoop.hdfs.DFSClient: Could not get block locations. Source file "/tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info" - Aborting...
+2011-11-21 16:44:21,960 WARN org.apache.hadoop.mapred.JobTracker: Writing to file hdfs://localhost/tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info failed!
+2011-11-21 16:44:21,960 WARN org.apache.hadoop.mapred.JobTracker: FileSystem is not ready yet!
+2011-11-21 16:44:21,962 WARN org.apache.hadoop.mapred.JobTracker: Failed to initialize recovery manager. 
+org.apache.hadoop.ipc.RemoteException: java.io.IOException: File /tmp/hadoop-srikanth.sundarrajan/mapred/system/jobtracker.info could only be replicated to 0 nodes, instead of 1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1469)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:557)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1415)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1411)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1115)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1409)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:1104)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:226)
+	at $Proxy4.addBlock(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at $Proxy4.addBlock(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.locateFollowingBlock(DFSClient.java:3185)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.nextBlockOutputStream(DFSClient.java:3055)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream.access$1900(DFSClient.java:2305)
+	at org.apache.hadoop.hdfs.DFSClient$DFSOutputStream$DataStreamer.run(DFSClient.java:2500)
+2011-11-21 16:44:31,962 WARN org.apache.hadoop.mapred.JobTracker: Retrying...
+2011-11-21 16:44:32,155 INFO org.apache.hadoop.mapred.JobTracker: Refreshing hosts information
+2011-11-21 16:44:32,208 INFO org.apache.hadoop.util.HostsFileReader: Setting the includes file to 
+2011-11-21 16:44:32,208 INFO org.apache.hadoop.util.HostsFileReader: Setting the excludes file to 
+2011-11-21 16:44:32,208 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2011-11-21 16:44:32,209 INFO org.apache.hadoop.mapred.JobTracker: Decommissioning 0 nodes
+2011-11-21 16:44:32,212 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2011-11-21 16:44:32,212 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 50300: starting
+2011-11-21 16:44:32,214 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 50300: starting
+2011-11-21 16:44:32,214 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 50300: starting
+2011-11-21 16:44:32,215 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 50300: starting
+2011-11-21 16:44:32,215 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 50300: starting
+2011-11-21 16:44:32,215 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 50300: starting
+2011-11-21 16:44:32,216 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 50300: starting
+2011-11-21 16:44:32,216 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 50300: starting
+2011-11-21 16:44:32,216 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 50300: starting
+2011-11-21 16:44:32,216 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 50300: starting
+2011-11-21 16:44:32,217 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 50300: starting
+2011-11-21 16:44:32,217 INFO org.apache.hadoop.mapred.JobTracker: Starting RUNNING
+2011-11-21 16:44:37,340 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/l903495.mkhoj.com
+2011-11-21 16:44:37,343 INFO org.apache.hadoop.mapred.JobTracker: Adding tracker tracker_l903495.mkhoj.com:localhost/127.0.0.1:52915 to host l903495.mkhoj.com
+2011-11-21 16:45:31,703 INFO org.apache.hadoop.mapred.JobTracker: Job job_201111211643_0001 added successfully for user 'srikanth.sundarrajan' to queue 'default'
+2011-11-21 16:45:31,705 INFO org.apache.hadoop.mapred.JobTracker: Initializing job_201111211643_0001
+2011-11-21 16:45:31,706 INFO org.apache.hadoop.mapred.JobInProgress: Initializing job_201111211643_0001
+2011-11-21 16:45:31,707 INFO org.apache.hadoop.mapred.AuditLogger: USER=srikanth.sundarrajan	IP=127.0.0.1	OPERATION=SUBMIT_JOB	TARGET=job_201111211643_0001	RESULT=SUCCESS
+2011-11-21 16:45:32,613 INFO org.apache.hadoop.mapred.JobInProgress: jobToken generated and stored with users keys in /tmp/hadoop-srikanth.sundarrajan/mapred/system/job_201111211643_0001/jobToken
+2011-11-21 16:45:32,677 INFO org.apache.hadoop.mapred.JobInProgress: Input size for job job_201111211643_0001 = 0. Number of splits = 1
+2011-11-21 16:45:32,677 INFO org.apache.hadoop.mapred.JobInProgress: job_201111211643_0001 LOCALITY_WAIT_FACTOR=0.0
+2011-11-21 16:45:32,678 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201111211643_0001 initialized successfully with 1 map tasks and 1 reduce tasks.
+2011-11-21 16:45:32,924 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_SETUP) 'attempt_201111211643_0001_m_000002_0' to tip task_201111211643_0001_m_000002, for tracker 'tracker_l903495.mkhoj.com:localhost/127.0.0.1:52915'
+2011-11-21 16:45:38,082 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201111211643_0001_m_000002_0' has completed task_201111211643_0001_m_000002 successfully.
+2011-11-21 16:45:38,089 INFO org.apache.hadoop.mapred.JobInProgress: Choosing a non-local task task_201111211643_0001_m_000000
+2011-11-21 16:45:38,090 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201111211643_0001_m_000000_0' to tip task_201111211643_0001_m_000000, for tracker 'tracker_l903495.mkhoj.com:localhost/127.0.0.1:52915'
+2011-11-21 16:45:41,794 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201111211643_0001_m_000000_0' has completed task_201111211643_0001_m_000000 successfully.
+2011-11-21 16:45:41,999 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201111211643_0001_r_000000_0' to tip task_201111211643_0001_r_000000, for tracker 'tracker_l903495.mkhoj.com:localhost/127.0.0.1:52915'
+2011-11-21 16:45:52,084 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201111211643_0001_r_000000_0' has completed task_201111211643_0001_r_000000 successfully.
+2011-11-21 16:45:52,182 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_CLEANUP) 'attempt_201111211643_0001_m_000001_0' to tip task_201111211643_0001_m_000001, for tracker 'tracker_l903495.mkhoj.com:localhost/127.0.0.1:52915'
+2011-11-21 16:45:54,967 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201111211643_0001_m_000001_0' has completed task_201111211643_0001_m_000001 successfully.
+2011-11-21 16:45:54,969 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201111211643_0001 has completed successfully.
+2011-11-21 16:45:54,972 INFO org.apache.hadoop.mapred.JobInProgress$JobSummary: jobId=job_201111211643_0001,submitTime=1321874130848,launchTime=1321874132677,firstMapTaskLaunchTime=1321874138089,firstReduceTaskLaunchTime=1321874141800,firstJobSetupTaskLaunchTime=1321874132898,firstJobCleanupTaskLaunchTime=1321874152182,finishTime=1321874154969,numMaps=1,numSlotsPerMap=1,numReduces=1,numSlotsPerReduce=1,user=srikanth.sundarrajan,queue=default,status=SUCCEEDED,mapSlotSeconds=9,reduceSlotsSeconds=9,clusterMapCapacity=2,clusterReduceCapacity=1
+2011-11-21 16:45:55,009 INFO org.apache.hadoop.mapred.JobHistory: Moving file:/opt/hadoop-0.20.2-cdh3u0/logs/history/localhost_1321873999629_job_201111211643_0001_srikanth.sundarrajan_Sleep+job to file:/opt/hadoop-0.20.2-cdh3u0/logs/history/done
+2011-11-21 16:45:55,037 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201111211643_0001_m_000000_0'
+2011-11-21 16:45:55,040 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201111211643_0001_m_000001_0'
+2011-11-21 16:45:55,040 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201111211643_0001_m_000002_0'
+2011-11-21 16:45:55,040 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201111211643_0001_r_000000_0'
+2011-11-21 16:45:55,135 INFO org.apache.hadoop.mapred.JobHistory: Moving file:/opt/hadoop-0.20.2-cdh3u0/logs/history/localhost_1321873999629_job_201111211643_0001_conf.xml to file:/opt/hadoop-0.20.2-cdh3u0/logs/history/done
+2011-11-21 22:22:23,492 INFO org.apache.hadoop.mapred.JobTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down JobTracker at l903495.mkhoj.com/10.14.100.80
+************************************************************/

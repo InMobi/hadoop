@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+        <property>
+                <name>fs.default.name</name>
+                <value>hdfs://localhost:8020</value>
+        </property>
+        <property>
+               <name>hadoop.proxyuser.oozie.groups</name>
+               <value>*</value>
+               <description>Allow the superuser oozie to impersonate any members of the group group1 and group2</description>
+             </property>
+        <property>
+               <name>hadoop.proxyuser.srikanth.sundarrajan.groups</name>
+               <value>staff</value>
+               <description>Allow the superuser oozie to impersonate any members of the group group1 and group2</description>
+             </property>
+             <property>
+               <name>hadoop.proxyuser.oozie.hosts</name>
+               <value>lr519me.mkhoj.com,localhost,127.0.0.1,10.14.100.78,10.14.111.61</value>
+               <description>The superuser can connect only from host1 and host2 to impersonate a user</description>
+             </property>
+             <property>
+               <name>hadoop.proxyuser.staff.hosts</name>
+               <value>lr519me.mkhoj.com,localhost,127.0.0.1,10.14.100.78,10.14.111.61</value>
+               <description>The superuser can connect only from host1 and host2 to impersonate a user</description>
+             </property>
+             <property>
+               <name>hadoop.proxyuser.srikanth.sundarrajan.hosts</name>
+               <value>lr519me.mkhoj.com,localhost,127.0.0.1,10.14.100.78,10.14.111.61</value>
+               <description>The superuser can connect only from host1 and host2 to impersonate a user</description>
+             </property>
+</configuration>

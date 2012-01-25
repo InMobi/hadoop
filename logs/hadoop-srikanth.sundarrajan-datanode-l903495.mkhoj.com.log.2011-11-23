@@ -1,0 +1,158 @@
+2011-11-23 08:58:49,150 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_4895905433010168213_1326
+2011-11-23 08:58:49,295 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-5115050447173211153_1124
+2011-11-23 08:58:49,398 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 1487 msecs
+2011-11-23 08:58:49,785 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-6638713292581176811_1149
+2011-11-23 08:58:49,924 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-2362723622438750142_1126
+2011-11-23 08:58:50,395 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-8480313073175186613_1329
+2011-11-23 08:58:50,470 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_725356423057696251_1339
+2011-11-23 08:58:50,542 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_5115616002928492112_1385
+2011-11-23 08:58:50,584 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-8108834395898623856_1369
+2011-11-23 08:58:50,632 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-6984941530160688286_1143
+2011-11-23 08:58:50,662 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_6409656100108346922_1166
+2011-11-23 08:58:50,690 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-7252953947893477530_1131
+2011-11-23 08:58:50,709 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-2455112271615706760_1177
+2011-11-23 08:58:50,721 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-5298230306695468058_1117
+2011-11-23 08:58:50,841 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_6297121439128774351_1155
+2011-11-23 08:58:50,885 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-118139641447803948_1388
+2011-11-23 08:58:53,032 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_3835673674608973879_1361
+2011-11-23 08:58:53,067 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-183753334719823471_1189
+2011-11-23 08:58:53,235 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-3991890352830471275_1345
+2011-11-23 08:58:53,435 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_5288135146049450325_1171
+2011-11-23 08:58:53,832 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-7613144876721755370_1346
+2011-11-23 08:58:53,858 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_3340681028548995062_1351
+2011-11-23 08:58:53,881 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-152184359926685029_1203
+2011-11-23 08:58:54,036 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_5169671729727255600_1141
+2011-11-23 08:58:54,053 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_3704417478812820306_1372
+2011-11-23 08:58:54,232 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-2625138917144627887_1332
+2011-11-23 08:58:54,258 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_2171763162048437761_1208
+2011-11-23 08:58:54,440 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_2976052095059912246_1137
+2011-11-23 08:58:54,634 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-4342675992554613930_1353
+2011-11-23 08:58:54,653 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_1255669408053790342_1176
+2011-11-23 08:58:54,660 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_5908841877300772794_1202
+2011-11-23 08:58:54,832 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_7661106963816633588_1363
+2011-11-23 08:58:54,856 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_3158168634738698899_1146
+2011-11-23 08:58:54,879 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-589506543589336686_1313
+2011-11-23 08:58:54,908 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-6154668923185076153_1168
+2011-11-23 08:58:54,909 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-6377605726068732142_1181
+2011-11-23 08:58:55,033 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-1622818533197179075_1154
+2011-11-23 08:58:55,236 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_7567268489662942462_1350
+2011-11-23 08:58:55,296 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-7892572153772635391_1368
+2011-11-23 08:58:55,319 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_8166732415169722836_1376
+2011-11-23 08:58:55,333 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-6051840525492975938_1192
+2011-11-23 08:58:55,334 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_1537874122232262839_1193
+2011-11-23 08:58:55,433 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_6936992256660044678_1142
+2011-11-23 08:58:55,434 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-8926847501650402238_1204
+2011-11-23 08:58:55,444 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_5885065180670721424_1122
+2011-11-23 08:58:55,453 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_354539616579531168_1136
+2011-11-23 08:58:55,468 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-973657332705940388_1401
+2011-11-23 08:58:55,487 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_5365032659798008561_1453
+2011-11-23 08:58:55,490 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-5145119732590085569_1118
+2011-11-23 08:58:55,521 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_3239592788711090368_1164
+2011-11-23 08:58:55,530 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_8809572877166024687_1172
+2011-11-23 08:58:55,532 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-122209996832599158_1182
+2011-11-23 08:58:55,561 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-1258185154527106135_1139
+2011-11-23 08:58:55,632 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_8693850314911402662_1130
+2011-11-23 08:58:55,634 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-4472991371622607346_1138
+2011-11-23 08:58:55,635 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-940729464672084806_1404
+2011-11-23 08:58:55,861 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_6734365543834197414_1338
+2011-11-23 08:58:55,934 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-3321880065743683800_1132
+2011-11-23 08:58:55,937 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-3051765578973364424_1119
+2011-11-23 08:58:55,961 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_1373542331700377649_1470
+2011-11-23 08:58:55,976 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-7490320388761775053_1178
+2011-11-23 08:58:55,994 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-8425098306648195840_1474
+2011-11-23 08:58:55,995 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-609285130146226055_1125
+2011-11-23 08:58:56,043 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_4665958109583279263_1407
+2011-11-23 08:58:56,080 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_4369360024971443444_1167
+2011-11-23 08:58:56,087 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_7674413177506842172_1174
+2011-11-23 08:58:58,233 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-5868597059103225930_1165
+2011-11-23 08:58:58,833 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-8141392940553675631_1147
+2011-11-23 08:58:59,232 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-585219722699229273_1333
+2011-11-23 08:58:59,242 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-914453259540517898_1175
+2011-11-23 08:58:59,255 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-6632349814377866767_1148
+2011-11-23 08:58:59,256 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_6377810405350559161_1191
+2011-11-23 08:59:02,641 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-2111458042587212456_1145
+2011-11-23 08:59:02,670 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_4646678288712167724_1207
+2011-11-23 08:59:03,034 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-1212630293171316696_1152
+2011-11-23 08:59:03,234 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_4664094063193854998_1144
+2011-11-23 08:59:03,633 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-8605865539531542896_1160
+2011-11-23 08:59:03,645 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_60062005986506687_1400
+2011-11-23 08:59:03,671 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-8837657366207064985_1129
+2011-11-23 08:59:03,680 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_7316003368351422906_1206
+2011-11-23 08:59:03,681 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_2505325982962996790_1205
+2011-11-23 08:59:03,699 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-4667215690179255461_1180
+2011-11-23 08:59:04,233 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_4951629094537194863_1153
+2011-11-23 08:59:04,234 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-393747988121262421_1185
+2011-11-23 08:59:04,253 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_8722576006845342684_1151
+2011-11-23 08:59:04,277 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-5860508562290189912_1393
+2011-11-23 08:59:04,282 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_2101567579126743169_1386
+2011-11-23 08:59:04,297 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-4654309793115279307_1319
+2011-11-23 08:59:04,299 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-3583386305603864554_1405
+2011-11-23 08:59:04,312 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-4154511865369169235_1336
+2011-11-23 08:59:04,439 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_189219988157352166_1362
+2011-11-23 08:59:04,464 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_7115435616971996068_1360
+2011-11-23 08:59:04,474 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_5596934293736890810_1396
+2011-11-23 08:59:04,633 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_4004444836915504220_1161
+2011-11-23 09:02:26,905 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_4544103039891785110_1157
+2011-11-23 09:03:36,104 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 99 msecs
+2011-11-23 09:07:16,959 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-977501798958443739_1451
+2011-11-23 09:09:29,032 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_7305042950704124014_1330
+2011-11-23 09:10:39,060 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_8986249542060864436_1173
+2011-11-23 09:24:32,293 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-7093052003838307429_1379
+2011-11-23 09:30:33,403 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-6224375342633959582_1210
+2011-11-23 10:03:35,883 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 18 msecs
+2011-11-23 10:11:06,760 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-8452643354630188867_1201
+2011-11-23 10:12:48,109 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-1043216509056096518_1212
+2011-11-23 10:13:16,450 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_7749308608907364545_1354
+2011-11-23 10:15:41,808 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-6553963038604935339_1162
+2011-11-23 10:20:09,170 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_1747307074792993972_1335
+2011-11-23 11:03:38,226 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 17 msecs
+2011-11-23 11:12:24,217 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_2086073902635771311_1322
+2011-11-23 11:21:31,316 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-681240415851158884_1188
+2011-11-23 11:36:55,451 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_6870809813296562369_1328
+2011-11-23 11:52:54,579 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_6819682605532209103_1195
+2011-11-23 12:03:36,498 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 15 msecs
+2011-11-23 12:20:52,001 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-3900527303289836839_1337
+2011-11-23 12:23:13,032 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_3992541869852578157_1365
+2011-11-23 12:39:06,208 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_4587002791494017576_1366
+2011-11-23 12:50:44,314 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-2155037172690329248_1316
+2011-11-23 12:52:50,349 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_5438470633168191458_1392
+2011-11-23 13:03:37,931 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 170 msecs
+2011-11-23 13:04:15,466 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-8859541304187458678_1355
+2011-11-23 13:27:47,595 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_1133260895581914610_1183
+2011-11-23 13:28:30,642 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-8600574646739452930_1397
+2011-11-23 13:35:38,707 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_2252699181636470475_1344
+2011-11-23 14:01:19,132 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-5718499610786874165_1186
+2011-11-23 14:03:35,916 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 37 msecs
+2011-11-23 14:23:18,665 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_6175864302534307264_1187
+2011-11-23 14:26:03,659 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_391549746442996255_1209
+2011-11-23 14:46:41,955 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-1131774065603598140_1331
+2011-11-23 15:03:36,304 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 34 msecs
+2011-11-23 15:19:13,243 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-7335868693766235044_1199
+2011-11-23 15:30:30,300 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_2835658163994792489_1327
+2011-11-23 15:46:00,397 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-5869988109764495243_1194
+2011-11-23 16:03:38,000 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 148 msecs
+2011-11-23 16:28:59,711 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-7778280139509167780_1340
+2011-11-23 16:32:32,793 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_4510922574866319800_1381
+2011-11-23 17:03:36,266 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 30 msecs
+2011-11-23 17:43:10,576 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_468359907784795637_1341
+2011-11-23 17:54:12,713 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-2972324640292636588_1390
+2011-11-23 18:03:37,563 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 82 msecs
+2011-11-23 18:17:15,822 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_1636906990213581234_1325
+2011-11-23 18:24:40,866 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_4942018881774441957_1382
+2011-11-23 18:29:36,105 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-5142195424082940843_1349
+2011-11-23 18:47:16,196 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-1855530312538600650_1402
+2011-11-23 18:54:13,255 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-1212562109599890169_1389
+2011-11-23 19:03:18,360 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-2313172137486914997_1403
+2011-11-23 19:03:35,819 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 26 msecs
+2011-11-23 19:26:57,639 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_6350757780253192875_1315
+2011-11-23 19:36:24,731 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-8534852570322776763_1367
+2011-11-23 19:38:50,789 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_6779596161441915366_1314
+2011-11-23 20:03:37,235 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 30 msecs
+2011-11-23 20:05:37,097 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-1121702699778043897_1370
+2011-11-23 22:00:11,603 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-2963365765022968675_1317
+2011-11-23 22:00:11,825 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-6971139812854764568_1383
+2011-11-23 22:00:11,833 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-3984541590581107483_1378
+2011-11-23 22:00:12,527 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-636508134363164243_1356
+2011-11-23 22:00:13,772 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 853 msecs
+2011-11-23 22:03:37,025 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 33 msecs
+2011-11-23 22:15:09,399 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-3372990585815863689_1380

@@ -1,0 +1,36 @@
+2012-01-01 14:00:55,844 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = static-167.28.99.14.tataidc.co.in/14.99.28.167
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.2-cdh3u0
+STARTUP_MSG:   build =  -r 81256ad0f2e4ab2bd34b04f53d25a6c23686dd14; compiled by 'hudson' on Fri Mar 25 19:56:23 PDT 2011
+************************************************************/
+2012-01-01 14:00:56,471 INFO org.apache.hadoop.security.UserGroupInformation: JAAS Configuration already set up for Hadoop, not re-installing.
+2012-01-01 14:00:56,709 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Registered FSDatasetStatusMBean
+2012-01-01 14:00:56,743 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Opened info server at 50010
+2012-01-01 14:00:56,750 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Balancing bandwith is 1048576 bytes/s
+2012-01-01 14:00:56,829 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2012-01-01 14:00:56,899 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2012-01-01 14:00:56,905 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50075
+2012-01-01 14:00:56,906 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50075 webServer.getConnectors()[0].getLocalPort() returned 50075
+2012-01-01 14:00:56,906 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50075
+2012-01-01 14:00:56,906 INFO org.mortbay.log: jetty-6.1.26
+2012-01-01 14:00:57,509 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50075
+2012-01-01 14:00:57,527 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=DataNode, sessionId=null
+2012-01-01 14:00:57,952 INFO org.apache.hadoop.ipc.Server: Starting Socket Reader #1 for port 50020
+2012-01-01 14:00:57,953 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=DataNode, port=50020
+2012-01-01 14:00:57,955 INFO org.apache.hadoop.ipc.metrics.RpcDetailedMetrics: Initializing RPC Metrics with hostName=DataNode, port=50020
+2012-01-01 14:00:57,957 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dnRegistration = DatanodeRegistration(static-167.28.99.14.tataidc.co.in:50010, storageID=DS-300736443-14.96.81.218-50010-1325388157545, infoPort=50075, ipcPort=50020)
+2012-01-01 14:00:58,002 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeRegistration(127.0.0.1:50010, storageID=DS-300736443-14.96.81.218-50010-1325388157545, infoPort=50075, ipcPort=50020)In DataNode.run, data = FSDataset{dirpath='/tmp/hadoop-srikanth.sundarrajan/dfs/data/current'}
+2012-01-01 14:00:58,003 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2012-01-01 14:00:58,004 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 50020: starting
+2012-01-01 14:00:58,005 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 50020: starting
+2012-01-01 14:00:58,005 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 50020: starting
+2012-01-01 14:00:58,005 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: using BLOCKREPORT_INTERVAL of 3600000msec Initial delay: 0msec
+2012-01-01 14:00:58,006 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 50020: starting
+2012-01-01 14:00:58,025 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 10 blocks got processed in 11 msecs
+2012-01-01 14:00:58,026 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting Periodic block scanner.
+2012-01-01 14:00:58,170 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_5119824354915716101_1010
+2012-01-01 14:11:25,272 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 10 blocks got processed in 5 msecs
+2012-01-01 20:44:17,111 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 10 blocks got processed in 2073 msecs

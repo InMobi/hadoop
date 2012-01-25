@@ -1,0 +1,4 @@
+2011-11-26 13:51:00,404 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at lr519me.mkhoj.com/10.14.100.78
+************************************************************/

@@ -1,0 +1,4 @@
+2011-11-22 09:41:12,831 INFO org.apache.hadoop.mapred.JobTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down JobTracker at MKHOJs-MacBook-3.local/192.168.0.100
+************************************************************/

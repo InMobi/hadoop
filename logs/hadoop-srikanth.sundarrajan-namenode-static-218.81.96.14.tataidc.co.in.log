@@ -1,0 +1,1025 @@
+2012-01-01 08:51:32,809 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = static-218.81.96.14.tataidc.co.in/14.96.81.218
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.2-cdh3u0
+STARTUP_MSG:   build =  -r 81256ad0f2e4ab2bd34b04f53d25a6c23686dd14; compiled by 'hudson' on Fri Mar 25 19:56:23 PDT 2011
+************************************************************/
+2012-01-01 08:51:33,432 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=NameNode, sessionId=null
+2012-01-01 08:51:33,436 INFO org.apache.hadoop.hdfs.server.namenode.metrics.NameNodeMetrics: Initializing NameNodeMeterics using context object:org.apache.hadoop.metrics.spi.NullContext
+2012-01-01 08:51:33,525 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2012-01-01 08:51:33,525 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 19.9175 MB
+2012-01-01 08:51:33,526 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2012-01-01 08:51:33,526 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2012-01-01 08:51:33,616 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=srikanth.sundarrajan
+2012-01-01 08:51:33,616 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2012-01-01 08:51:33,616 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2012-01-01 08:51:33,640 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=1000
+2012-01-01 08:51:33,640 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2012-01-01 08:51:33,960 INFO org.apache.hadoop.hdfs.server.namenode.metrics.FSNamesystemMetrics: Initializing FSNamesystemMetrics using context object:org.apache.hadoop.metrics.spi.NullContext
+2012-01-01 08:51:34,047 INFO org.apache.hadoop.hdfs.server.common.Storage: Storage directory /private/tmp/hadoop-srikanth.sundarrajan/dfs/name does not exist.
+2012-01-01 08:51:34,049 ERROR org.apache.hadoop.hdfs.server.namenode.FSNamesystem: FSNamesystem initialization failed.
+org.apache.hadoop.hdfs.server.common.InconsistentFSStateException: Directory /private/tmp/hadoop-srikanth.sundarrajan/dfs/name is in an inconsistent state: storage directory does not exist or is not accessible.
+	at org.apache.hadoop.hdfs.server.namenode.FSImage.recoverTransitionRead(FSImage.java:305)
+	at org.apache.hadoop.hdfs.server.namenode.FSDirectory.loadFSImage(FSDirectory.java:99)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.initialize(FSNamesystem.java:347)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.<init>(FSNamesystem.java:321)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.initialize(NameNode.java:267)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:461)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.createNameNode(NameNode.java:1208)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.main(NameNode.java:1217)
+2012-01-01 08:51:34,065 ERROR org.apache.hadoop.hdfs.server.namenode.NameNode: org.apache.hadoop.hdfs.server.common.InconsistentFSStateException: Directory /private/tmp/hadoop-srikanth.sundarrajan/dfs/name is in an inconsistent state: storage directory does not exist or is not accessible.
+	at org.apache.hadoop.hdfs.server.namenode.FSImage.recoverTransitionRead(FSImage.java:305)
+	at org.apache.hadoop.hdfs.server.namenode.FSDirectory.loadFSImage(FSDirectory.java:99)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.initialize(FSNamesystem.java:347)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.<init>(FSNamesystem.java:321)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.initialize(NameNode.java:267)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:461)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.createNameNode(NameNode.java:1208)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.main(NameNode.java:1217)
+
+2012-01-01 08:51:34,067 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at static-218.81.96.14.tataidc.co.in/14.96.81.218
+************************************************************/
+2012-01-01 08:52:30,756 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = static-218.81.96.14.tataidc.co.in/14.96.81.218
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.2-cdh3u0
+STARTUP_MSG:   build =  -r 81256ad0f2e4ab2bd34b04f53d25a6c23686dd14; compiled by 'hudson' on Fri Mar 25 19:56:23 PDT 2011
+************************************************************/
+2012-01-01 08:52:31,011 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=NameNode, sessionId=null
+2012-01-01 08:52:31,014 INFO org.apache.hadoop.hdfs.server.namenode.metrics.NameNodeMetrics: Initializing NameNodeMeterics using context object:org.apache.hadoop.metrics.spi.NullContext
+2012-01-01 08:52:31,043 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2012-01-01 08:52:31,043 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 19.9175 MB
+2012-01-01 08:52:31,043 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2012-01-01 08:52:31,043 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2012-01-01 08:52:31,078 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=srikanth.sundarrajan
+2012-01-01 08:52:31,079 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2012-01-01 08:52:31,079 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2012-01-01 08:52:31,084 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=1000
+2012-01-01 08:52:31,084 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2012-01-01 08:52:31,354 INFO org.apache.hadoop.hdfs.server.namenode.metrics.FSNamesystemMetrics: Initializing FSNamesystemMetrics using context object:org.apache.hadoop.metrics.spi.NullContext
+2012-01-01 08:52:31,398 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 1
+2012-01-01 08:52:31,403 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2012-01-01 08:52:31,403 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 126 loaded in 0 seconds.
+2012-01-01 08:52:31,404 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-srikanth.sundarrajan/dfs/name/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2012-01-01 08:52:31,405 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 126 saved in 0 seconds.
+2012-01-01 08:52:31,428 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 126 saved in 0 seconds.
+2012-01-01 08:52:31,463 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Finished loading FSImage in 392 msecs
+2012-01-01 08:52:31,475 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Total number of blocks = 0
+2012-01-01 08:52:31,475 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of invalid blocks = 0
+2012-01-01 08:52:31,475 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of under-replicated blocks = 0
+2012-01-01 08:52:31,475 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of  over-replicated blocks = 0
+2012-01-01 08:52:31,475 INFO org.apache.hadoop.hdfs.StateChange: STATE* Leaving safe mode after 0 secs.
+2012-01-01 08:52:31,476 INFO org.apache.hadoop.hdfs.StateChange: STATE* Network topology has 0 racks and 0 datanodes
+2012-01-01 08:52:31,476 INFO org.apache.hadoop.hdfs.StateChange: STATE* UnderReplicatedBlocks has 0 blocks
+2012-01-01 08:52:31,481 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2012-01-01 08:52:31,559 INFO org.apache.hadoop.ipc.Server: Starting Socket Reader #1 for port 8020
+2012-01-01 08:52:31,560 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=NameNode, port=8020
+2012-01-01 08:52:31,562 INFO org.apache.hadoop.ipc.metrics.RpcDetailedMetrics: Initializing RPC Metrics with hostName=NameNode, port=8020
+2012-01-01 08:52:31,573 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Namenode up at: lr519me.mkhoj.com/127.0.0.1:8020
+2012-01-01 08:52:32,012 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2012-01-01 08:52:32,124 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2012-01-01 08:52:32,167 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50070
+2012-01-01 08:52:32,169 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50070 webServer.getConnectors()[0].getLocalPort() returned 50070
+2012-01-01 08:52:32,169 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50070
+2012-01-01 08:52:32,169 INFO org.mortbay.log: jetty-6.1.26
+2012-01-01 08:52:32,897 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50070
+2012-01-01 08:52:32,906 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Web-server up at: 0.0.0.0:50070
+2012-01-01 08:52:32,906 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2012-01-01 08:52:32,906 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 8020: starting
+2012-01-01 08:52:32,909 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 8020: starting
+2012-01-01 08:52:32,909 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 8020: starting
+2012-01-01 08:52:32,910 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 8020: starting
+2012-01-01 08:52:32,910 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 8020: starting
+2012-01-01 08:52:32,910 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 8020: starting
+2012-01-01 08:52:32,910 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 8020: starting
+2012-01-01 08:52:32,911 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 8020: starting
+2012-01-01 08:52:32,911 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 8020: starting
+2012-01-01 08:52:32,911 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 8020: starting
+2012-01-01 08:52:32,911 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 8020: starting
+2012-01-01 08:52:37,552 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 127.0.0.1:50010 storage DS-300736443-14.96.81.218-50010-1325388157545
+2012-01-01 08:52:37,556 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/127.0.0.1:50010
+2012-01-01 08:52:43,830 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=srikanth.sundarrajan	ip=/127.0.0.1	cmd=listStatus	src=/	dst=null	perm=null
+2012-01-01 08:53:00,580 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=srikanth.sundarrajan	ip=/127.0.0.1	cmd=create	src=/policy.xml	dst=null	perm=srikanth.sundarrajan:supergroup:rw-r--r--
+2012-01-01 08:53:00,604 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /policy.xml. blk_6557465261325558294_1001
+2012-01-01 08:53:00,756 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_6557465261325558294_1001 size 59325
+2012-01-01 08:53:00,759 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /policy.xml from client DFSClient_-1884678355
+2012-01-01 08:53:00,760 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /policy.xml is closed by DFSClient_-1884678355
+2012-01-01 08:53:10,939 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=srikanth.sundarrajan	ip=/127.0.0.1	cmd=mkdirs	src=/data	dst=null	perm=srikanth.sundarrajan:supergroup:rwxr-xr-x
+2012-01-01 08:53:15,043 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=srikanth.sundarrajan	ip=/127.0.0.1	cmd=create	src=/data/policy.xml	dst=null	perm=srikanth.sundarrajan:supergroup:rw-r--r--
+2012-01-01 08:53:15,052 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /data/policy.xml. blk_5219533809707369055_1002
+2012-01-01 08:53:15,142 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_5219533809707369055_1002 size 59325
+2012-01-01 08:53:15,155 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /data/policy.xml from client DFSClient_-317625403
+2012-01-01 08:53:15,155 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /data/policy.xml is closed by DFSClient_-317625403
+2012-01-01 08:53:25,434 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=srikanth.sundarrajan	ip=/127.0.0.1	cmd=listStatus	src=/	dst=null	perm=null
+2012-01-01 08:53:25,446 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=srikanth.sundarrajan	ip=/127.0.0.1	cmd=listStatus	src=/data	dst=null	perm=null
+2012-01-01 08:55:23,635 WARN org.apache.hadoop.security.ShellBasedUnixGroupsMapping: got exception trying to get groups for user webuser
+org.apache.hadoop.util.Shell$ExitCodeException: id: webuser: no such user
+
+	at org.apache.hadoop.util.Shell.runCommand(Shell.java:255)
+	at org.apache.hadoop.util.Shell.run(Shell.java:182)
+	at org.apache.hadoop.util.Shell$ShellCommandExecutor.execute(Shell.java:375)
+	at org.apache.hadoop.util.Shell.execCommand(Shell.java:461)
+	at org.apache.hadoop.util.Shell.execCommand(Shell.java:444)
+	at org.apache.hadoop.security.ShellBasedUnixGroupsMapping.getUnixGroups(ShellBasedUnixGroupsMapping.java:66)
+	at org.apache.hadoop.security.ShellBasedUnixGroupsMapping.getGroups(ShellBasedUnixGroupsMapping.java:43)
+	at org.apache.hadoop.security.Groups.getGroups(Groups.java:79)
+	at org.apache.hadoop.security.UserGroupInformation.getGroupNames(UserGroupInformation.java:1022)
+	at org.apache.hadoop.hdfs.server.namenode.FSPermissionChecker.<init>(FSPermissionChecker.java:50)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkPermission(FSNamesystem.java:4972)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkTraverse(FSNamesystem.java:4955)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getFileInfo(FSNamesystem.java:1930)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.getFileInfo(NameNode.java:801)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:557)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1415)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1411)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1115)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1409)
+2012-01-01 08:55:23,647 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=webuser	ip=/127.0.0.1	cmd=listStatus	src=/	dst=null	perm=null
+2012-01-01 08:55:47,663 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 9 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 5 SyncTimes(ms): 1 
+2012-01-01 08:55:47,664 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=srikanth.sundarrajan	ip=/127.0.0.1	cmd=create	src=/data/policy.xml.new	dst=null	perm=srikanth.sundarrajan:supergroup:rw-r--r--
+2012-01-01 08:55:47,675 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /data/policy.xml.new. blk_2075110134693634872_1003
+2012-01-01 08:55:47,766 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_2075110134693634872_1003 size 59325
+2012-01-01 08:55:47,770 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /data/policy.xml.new from client DFSClient_808733596
+2012-01-01 08:55:47,771 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /data/policy.xml.new is closed by DFSClient_808733596
+2012-01-01 08:58:04,707 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 12 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 7 SyncTimes(ms): 12 
+2012-01-01 08:58:04,719 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=srikanth.sundarrajan	ip=/127.0.0.1	cmd=create	src=/data/policy.xml.new.old	dst=null	perm=srikanth.sundarrajan:supergroup:rw-r--r--
+2012-01-01 08:58:04,730 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /data/policy.xml.new.old. blk_-4061422321352481586_1004
+2012-01-01 08:58:04,821 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-4061422321352481586_1004 size 59325
+2012-01-01 08:58:04,837 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /data/policy.xml.new.old from client DFSClient_1982296190
+2012-01-01 08:58:04,837 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /data/policy.xml.new.old is closed by DFSClient_1982296190
+2012-01-01 09:03:44,538 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 15 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 9 SyncTimes(ms): 23 
+2012-01-01 09:03:44,539 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=srikanth.sundarrajan	ip=/127.0.0.1	cmd=create	src=/data/policy.xml.old	dst=null	perm=srikanth.sundarrajan:supergroup:rw-r--r--
+2012-01-01 09:03:44,549 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /data/policy.xml.old. blk_771090258370031553_1005
+2012-01-01 09:03:44,642 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_771090258370031553_1005 size 59325
+2012-01-01 09:03:44,646 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /data/policy.xml.old from client DFSClient_-2066690273
+2012-01-01 09:03:44,653 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /data/policy.xml.old is closed by DFSClient_-2066690273
+2012-01-01 09:04:30,864 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=srikanth.sundarrajan	ip=/127.0.0.1	cmd=create	src=/data/policy.xml.old.1	dst=null	perm=srikanth.sundarrajan:supergroup:rw-r--r--
+2012-01-01 09:04:30,875 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /data/policy.xml.old.1. blk_-1903365672096571873_1006
+2012-01-01 09:04:30,976 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-1903365672096571873_1006 size 59325
+2012-01-01 09:04:30,979 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /data/policy.xml.old.1 from client DFSClient_-1985914827
+2012-01-01 09:04:30,979 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /data/policy.xml.old.1 is closed by DFSClient_-1985914827
+2012-01-01 09:05:11,001 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 21 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 13 SyncTimes(ms): 25 
+2012-01-01 09:05:11,002 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=srikanth.sundarrajan	ip=/127.0.0.1	cmd=create	src=/data/policy.xml.old.2	dst=null	perm=srikanth.sundarrajan:supergroup:rw-r--r--
+2012-01-01 09:05:11,013 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /data/policy.xml.old.2. blk_-5346162413073869713_1007
+2012-01-01 09:05:11,117 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-5346162413073869713_1007 size 59325
+2012-01-01 09:05:11,118 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /data/policy.xml.old.2 from client DFSClient_-259906329
+2012-01-01 09:05:11,119 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /data/policy.xml.old.2 is closed by DFSClient_-259906329
+2012-01-01 09:05:14,739 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=srikanth.sundarrajan	ip=/127.0.0.1	cmd=create	src=/data/policy.xml.old.3	dst=null	perm=srikanth.sundarrajan:supergroup:rw-r--r--
+2012-01-01 09:05:14,749 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /data/policy.xml.old.3. blk_-6510565868799951950_1008
+2012-01-01 09:05:14,848 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-6510565868799951950_1008 size 59325
+2012-01-01 09:05:14,850 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /data/policy.xml.old.3 from client DFSClient_-237953505
+2012-01-01 09:05:14,851 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /data/policy.xml.old.3 is closed by DFSClient_-237953505
+2012-01-01 09:06:48,127 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 27 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 17 SyncTimes(ms): 25 
+2012-01-01 09:06:48,128 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=srikanth.sundarrajan	ip=/127.0.0.1	cmd=create	src=/data/policy.xml.old.4	dst=null	perm=srikanth.sundarrajan:supergroup:rw-r--r--
+2012-01-01 09:06:48,140 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /data/policy.xml.old.4. blk_-2180572107040703598_1009
+2012-01-01 09:06:48,235 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-2180572107040703598_1009 size 59325
+2012-01-01 09:06:48,240 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /data/policy.xml.old.4 from client DFSClient_-895008401
+2012-01-01 09:06:48,240 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /data/policy.xml.old.4 is closed by DFSClient_-895008401
+2012-01-01 09:14:36,924 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=srikanth.sundarrajan	ip=/127.0.0.1	cmd=listStatus	src=/	dst=null	perm=null
+2012-01-01 09:14:40,246 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=srikanth.sundarrajan	ip=/127.0.0.1	cmd=listStatus	src=/	dst=null	perm=null
+2012-01-01 09:14:40,254 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=srikanth.sundarrajan	ip=/127.0.0.1	cmd=listStatus	src=/data	dst=null	perm=null
+2012-01-01 09:21:24,604 WARN org.mortbay.log: /breakdfs.jsp
+org.apache.jasper.JasperException: Unable to compile class for JSP
+
+An error occurred at line: 20 in the jsp file: /breakdfs.jsp
+Generated servlet error:
+The method getFSImage() from the type FSNamesystem is not visible
+
+An error occurred at line: 20 in the jsp file: /breakdfs.jsp
+Generated servlet error:
+The field FSImage.removedStorageDirs is not visible
+
+
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:84)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:328)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:409)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:288)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:267)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:255)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:563)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:293)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at org.apache.hadoop.http.HttpServer$QuotingInputFilter.doFilter(HttpServer.java:824)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2012-01-01 09:28:37,737 WARN org.mortbay.log: /breakdfs.jsp
+org.apache.jasper.JasperException: Unable to compile class for JSP
+
+An error occurred at line: 20 in the jsp file: /breakdfs.jsp
+Generated servlet error:
+context cannot be resolved
+
+
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:84)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:328)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:409)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:288)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:267)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:255)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:563)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:293)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at org.apache.hadoop.http.HttpServer$QuotingInputFilter.doFilter(HttpServer.java:824)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2012-01-01 09:30:22,659 WARN org.mortbay.log: /breakdfs.jsp
+org.apache.jasper.JasperException: Unable to compile class for JSP
+
+An error occurred at line: 20 in the jsp file: /breakdfs.jsp
+Generated servlet error:
+The method getContext() is undefined for the type HttpServletRequest
+
+
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:84)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:328)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:409)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:288)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:267)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:255)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:563)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:293)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at org.apache.hadoop.http.HttpServer$QuotingInputFilter.doFilter(HttpServer.java:824)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2012-01-01 09:33:57,854 WARN org.mortbay.log: /breakdfs.jsp
+org.apache.jasper.JasperException: Unable to compile class for JSP
+
+An error occurred at line: 20 in the jsp file: /breakdfs.jsp
+Generated servlet error:
+The field FSImage.removedStorageDirs is not visible
+
+
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:84)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:328)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:409)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:288)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:267)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:255)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:563)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:293)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at org.apache.hadoop.http.HttpServer$QuotingInputFilter.doFilter(HttpServer.java:824)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2012-01-01 10:37:38,012 WARN org.mortbay.log: /breakdfs.jsp
+org.apache.jasper.JasperException: Unable to compile class for JSP
+
+An error occurred at line: 20 in the jsp file: /breakdfs.jsp
+Generated servlet error:
+Type mismatch: cannot convert from Object to List
+
+
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:84)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:328)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:409)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:288)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:267)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:255)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:563)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:293)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at org.apache.hadoop.http.HttpServer$QuotingInputFilter.doFilter(HttpServer.java:824)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2012-01-01 10:37:53,565 WARN org.mortbay.log: /breakdfs.jsp
+java.lang.IllegalAccessException: Class org.apache.jsp.breakdfs_jsp can not access a member of class org.apache.hadoop.hdfs.server.namenode.FSImage with modifiers "protected"
+	at sun.reflect.Reflection.ensureMemberAccess(Reflection.java:65)
+	at java.lang.reflect.Field.doSecurityCheck(Field.java:960)
+	at java.lang.reflect.Field.getFieldAccessor(Field.java:896)
+	at java.lang.reflect.Field.get(Field.java:358)
+	at org.apache.jsp.breakdfs_jsp._jspService(org.apache.jsp.breakdfs_jsp:67)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:97)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:322)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at org.apache.hadoop.http.HttpServer$QuotingInputFilter.doFilter(HttpServer.java:824)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2012-01-01 10:38:54,570 WARN org.mortbay.log: /breakdfs.jsp
+org.apache.jasper.JasperException: Unable to compile class for JSP
+
+An error occurred at line: 20 in the jsp file: /breakdfs.jsp
+Generated servlet error:
+Field cannot be resolved to a type
+
+
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:84)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:328)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:409)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:288)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:267)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:255)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:563)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:293)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at org.apache.hadoop.http.HttpServer$QuotingInputFilter.doFilter(HttpServer.java:824)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2012-01-01 10:40:39,860 WARN org.mortbay.log: /breakdfs.jsp
+org.apache.jasper.JasperException: Unable to compile class for JSP
+
+An error occurred at line: 20 in the jsp file: /breakdfs.jsp
+Generated servlet error:
+Field cannot be resolved to a type
+
+
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:84)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:328)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:409)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:288)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:267)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:255)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:563)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:293)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at org.apache.hadoop.http.HttpServer$QuotingInputFilter.doFilter(HttpServer.java:824)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2012-01-01 10:40:41,808 WARN org.mortbay.log: /breakdfs.jsp
+java.lang.IllegalAccessException: Class org.apache.jsp.breakdfs_jsp can not access a member of class org.apache.hadoop.hdfs.server.namenode.FSImage with modifiers "protected"
+	at sun.reflect.Reflection.ensureMemberAccess(Reflection.java:65)
+	at java.lang.reflect.Field.doSecurityCheck(Field.java:960)
+	at java.lang.reflect.Field.getFieldAccessor(Field.java:896)
+	at java.lang.reflect.Field.get(Field.java:358)
+	at org.apache.jsp.breakdfs_jsp._jspService(org.apache.jsp.breakdfs_jsp:67)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:97)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:322)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at org.apache.hadoop.http.HttpServer$QuotingInputFilter.doFilter(HttpServer.java:824)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2012-01-01 10:41:02,277 WARN org.mortbay.log: /breakdfs.jsp
+org.apache.jasper.JasperException: Unable to compile class for JSP
+
+An error occurred at line: 20 in the jsp file: /breakdfs.jsp
+Generated servlet error:
+Field cannot be resolved to a type
+
+
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:84)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:328)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:409)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:288)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:267)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:255)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:563)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:293)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at org.apache.hadoop.http.HttpServer$QuotingInputFilter.doFilter(HttpServer.java:824)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2012-01-01 10:41:04,764 WARN org.mortbay.log: /breakdfs.jsp
+java.lang.IllegalAccessException: Class org.apache.jsp.breakdfs_jsp can not access a member of class org.apache.hadoop.hdfs.server.namenode.FSImage with modifiers "protected"
+	at sun.reflect.Reflection.ensureMemberAccess(Reflection.java:65)
+	at java.lang.reflect.Field.doSecurityCheck(Field.java:960)
+	at java.lang.reflect.Field.getFieldAccessor(Field.java:896)
+	at java.lang.reflect.Field.get(Field.java:358)
+	at org.apache.jsp.breakdfs_jsp._jspService(org.apache.jsp.breakdfs_jsp:67)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:97)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:322)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at org.apache.hadoop.http.HttpServer$QuotingInputFilter.doFilter(HttpServer.java:824)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2012-01-01 10:41:06,370 WARN org.mortbay.log: /breakdfs.jsp
+org.apache.jasper.JasperException: Unable to compile class for JSP
+
+An error occurred at line: 20 in the jsp file: /breakdfs.jsp
+Generated servlet error:
+Field cannot be resolved to a type
+
+
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:84)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:328)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:409)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:288)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:267)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:255)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:563)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:293)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at org.apache.hadoop.http.HttpServer$QuotingInputFilter.doFilter(HttpServer.java:824)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2012-01-01 10:41:07,660 WARN org.mortbay.log: /breakdfs.jsp
+java.lang.IllegalAccessException: Class org.apache.jsp.breakdfs_jsp can not access a member of class org.apache.hadoop.hdfs.server.namenode.FSImage with modifiers "protected"
+	at sun.reflect.Reflection.ensureMemberAccess(Reflection.java:65)
+	at java.lang.reflect.Field.doSecurityCheck(Field.java:960)
+	at java.lang.reflect.Field.getFieldAccessor(Field.java:896)
+	at java.lang.reflect.Field.get(Field.java:358)
+	at org.apache.jsp.breakdfs_jsp._jspService(org.apache.jsp.breakdfs_jsp:67)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:97)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:322)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at org.apache.hadoop.http.HttpServer$QuotingInputFilter.doFilter(HttpServer.java:824)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2012-01-01 10:41:59,989 WARN org.mortbay.log: /breakdfs.jsp
+org.apache.jasper.JasperException: Unable to compile class for JSP
+
+An error occurred at line: 20 in the jsp file: /breakdfs.jsp
+Generated servlet error:
+Field cannot be resolved to a type
+
+
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:84)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:328)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:409)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:288)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:267)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:255)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:563)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:293)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at org.apache.hadoop.http.HttpServer$QuotingInputFilter.doFilter(HttpServer.java:824)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2012-01-01 10:42:03,314 WARN org.mortbay.log: /breakdfs.jsp
+java.lang.IllegalAccessException: Class org.apache.jsp.breakdfs_jsp can not access a member of class org.apache.hadoop.hdfs.server.namenode.FSImage with modifiers "protected"
+	at sun.reflect.Reflection.ensureMemberAccess(Reflection.java:65)
+	at java.lang.reflect.Field.doSecurityCheck(Field.java:960)
+	at java.lang.reflect.Field.getFieldAccessor(Field.java:896)
+	at java.lang.reflect.Field.get(Field.java:358)
+	at org.apache.jsp.breakdfs_jsp._jspService(org.apache.jsp.breakdfs_jsp:67)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:97)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:322)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at org.apache.hadoop.http.HttpServer$QuotingInputFilter.doFilter(HttpServer.java:824)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2012-01-01 10:42:07,653 WARN org.mortbay.log: /breakdfs.jsp
+org.apache.jasper.JasperException: Unable to compile class for JSP
+
+An error occurred at line: 20 in the jsp file: /breakdfs.jsp
+Generated servlet error:
+Field cannot be resolved to a type
+
+
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:84)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:328)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:409)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:288)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:267)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:255)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:563)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:293)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at org.apache.hadoop.http.HttpServer$QuotingInputFilter.doFilter(HttpServer.java:824)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2012-01-01 10:42:51,278 WARN org.mortbay.log: /newbreakdfs.jsp
+org.apache.jasper.JasperException: Unable to compile class for JSP
+
+An error occurred at line: 20 in the jsp file: /newbreakdfs.jsp
+Generated servlet error:
+Field cannot be resolved to a type
+
+
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:84)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:328)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:409)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:288)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:267)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:255)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:563)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:293)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at org.apache.hadoop.http.HttpServer$QuotingInputFilter.doFilter(HttpServer.java:824)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2012-01-01 10:42:54,329 WARN org.mortbay.log: /newbreakdfs.jsp
+java.lang.ClassNotFoundException: org.apache.jsp.newbreakdfs_jsp
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:133)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:65)
+	at org.apache.jasper.JspCompilationContext.load(JspCompilationContext.java:596)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:137)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:305)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at org.apache.hadoop.http.HttpServer$QuotingInputFilter.doFilter(HttpServer.java:824)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2012-01-01 10:42:58,956 WARN org.mortbay.log: /newbreakdfs.jsp
+org.apache.jasper.JasperException: Unable to compile class for JSP
+
+An error occurred at line: 20 in the jsp file: /newbreakdfs.jsp
+Generated servlet error:
+Field cannot be resolved to a type
+
+
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:84)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:328)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:409)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:288)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:267)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:255)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:563)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:293)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at org.apache.hadoop.http.HttpServer$QuotingInputFilter.doFilter(HttpServer.java:824)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2012-01-01 11:33:40,127 WARN org.mortbay.log: /newbreakdfs.jsp
+org.apache.jasper.JasperException: Unable to compile class for JSP
+
+An error occurred at line: 20 in the jsp file: /newbreakdfs.jsp
+Generated servlet error:
+Field cannot be resolved to a type
+
+
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:84)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:328)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:409)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:288)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:267)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:255)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:563)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:293)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at org.apache.hadoop.http.HttpServer$QuotingInputFilter.doFilter(HttpServer.java:824)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2012-01-01 11:33:42,678 WARN org.mortbay.log: /newbreakdfs.jsp
+java.lang.ClassNotFoundException: org.apache.jsp.newbreakdfs_jsp
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:133)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:65)
+	at org.apache.jasper.JspCompilationContext.load(JspCompilationContext.java:596)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:137)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:305)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at org.apache.hadoop.http.HttpServer$QuotingInputFilter.doFilter(HttpServer.java:824)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2012-01-01 11:33:45,573 WARN org.mortbay.log: /newbreakdfs.jsp
+org.apache.jasper.JasperException: Unable to compile class for JSP
+
+An error occurred at line: 20 in the jsp file: /newbreakdfs.jsp
+Generated servlet error:
+Field cannot be resolved to a type
+
+
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:84)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:328)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:409)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:288)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:267)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:255)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:563)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:293)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:314)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:264)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at org.apache.hadoop.http.HttpServer$QuotingInputFilter.doFilter(HttpServer.java:824)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2012-01-01 12:50:06,632 WARN org.apache.hadoop.ipc.Server: Incorrect header or version mismatch from 127.0.0.1:64309 got version 47 expected version 4
+2012-01-01 12:50:06,694 WARN org.apache.hadoop.ipc.Server: Incorrect header or version mismatch from 127.0.0.1:64310 got version 47 expected version 4
+2012-01-01 12:50:06,706 WARN org.apache.hadoop.ipc.Server: Incorrect header or version mismatch from 127.0.0.1:64311 got version 47 expected version 4
+2012-01-01 12:50:19,914 WARN org.apache.hadoop.ipc.Server: Incorrect header or version mismatch from 127.0.0.1:64317 got version 47 expected version 4
+2012-01-01 12:50:19,916 WARN org.apache.hadoop.ipc.Server: Incorrect header or version mismatch from 127.0.0.1:64318 got version 47 expected version 4
+2012-01-01 12:50:19,919 WARN org.apache.hadoop.ipc.Server: Incorrect header or version mismatch from 127.0.0.1:64319 got version 47 expected version 4
+2012-01-01 13:24:23,034 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 28 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 19 SyncTimes(ms): 26 
+2012-01-01 13:24:23,071 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode is ON. 
+Use "hadoop dfsadmin -safemode leave" to turn safe mode off.
+2012-01-01 13:24:30,669 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 28 Total time for transactions(ms): 0Number of transactions batched in Syncs: 1 Number of syncs: 19 SyncTimes(ms): 26 
+2012-01-01 13:24:30,778 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 1202 saved in 0 seconds.
+2012-01-01 13:24:30,888 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 1202 saved in 0 seconds.
+2012-01-01 13:24:31,200 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: New namespace image has been created.
+2012-01-01 13:24:54,925 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Total number of blocks = 9
+2012-01-01 13:24:54,926 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of invalid blocks = 0
+2012-01-01 13:24:54,926 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of under-replicated blocks = 0
+2012-01-01 13:24:54,926 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of  over-replicated blocks = 0
+2012-01-01 13:24:54,926 INFO org.apache.hadoop.hdfs.StateChange: STATE* Leaving safe mode after 16343 secs.
+2012-01-01 13:24:54,926 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode is OFF.
+2012-01-01 13:24:54,926 INFO org.apache.hadoop.hdfs.StateChange: STATE* Network topology has 1 racks and 1 datanodes
+2012-01-01 13:24:54,927 INFO org.apache.hadoop.hdfs.StateChange: STATE* UnderReplicatedBlocks has 0 blocks
+2012-01-01 13:25:00,446 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=srikanth.sundarrajan	ip=/127.0.0.1	cmd=listStatus	src=/	dst=null	perm=null
+2012-01-01 13:25:03,888 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=srikanth.sundarrajan	ip=/127.0.0.1	cmd=listStatus	src=/	dst=null	perm=null
+2012-01-01 13:25:03,894 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=srikanth.sundarrajan	ip=/127.0.0.1	cmd=listStatus	src=/data	dst=null	perm=null
+2012-01-01 13:25:40,518 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 1 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2012-01-01 13:25:40,522 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=srikanth.sundarrajan	ip=/127.0.0.1	cmd=mkdirs	src=/new	dst=null	perm=srikanth.sundarrajan:supergroup:rwxr-xr-x
+2012-01-01 13:25:49,832 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=srikanth.sundarrajan	ip=/127.0.0.1	cmd=create	src=/new/policy.xml	dst=null	perm=srikanth.sundarrajan:supergroup:rw-r--r--
+2012-01-01 13:25:49,920 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /new/policy.xml. blk_5119824354915716101_1010
+2012-01-01 13:25:50,639 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_5119824354915716101_1010 size 59325
+2012-01-01 13:25:50,798 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /new/policy.xml from client DFSClient_356345463
+2012-01-01 13:25:50,911 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /new/policy.xml is closed by DFSClient_356345463
+2012-01-01 14:00:38,346 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at static-218.81.96.14.tataidc.co.in/14.96.81.218
+************************************************************/

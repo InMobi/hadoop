@@ -1,0 +1,72 @@
+2012-01-01 14:00:52,365 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = static-167.28.99.14.tataidc.co.in/14.99.28.167
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.2-cdh3u0
+STARTUP_MSG:   build =  -r 81256ad0f2e4ab2bd34b04f53d25a6c23686dd14; compiled by 'hudson' on Fri Mar 25 19:56:23 PDT 2011
+************************************************************/
+2012-01-01 14:00:52,804 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=NameNode, sessionId=null
+2012-01-01 14:00:52,808 INFO org.apache.hadoop.hdfs.server.namenode.metrics.NameNodeMetrics: Initializing NameNodeMeterics using context object:org.apache.hadoop.metrics.spi.NullContext
+2012-01-01 14:00:52,882 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2012-01-01 14:00:52,882 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 19.9175 MB
+2012-01-01 14:00:52,882 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2012-01-01 14:00:52,882 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2012-01-01 14:00:52,966 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=srikanth.sundarrajan
+2012-01-01 14:00:52,967 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2012-01-01 14:00:52,967 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2012-01-01 14:00:52,987 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=1000
+2012-01-01 14:00:52,988 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2012-01-01 14:00:53,364 INFO org.apache.hadoop.hdfs.server.namenode.metrics.FSNamesystemMetrics: Initializing FSNamesystemMetrics using context object:org.apache.hadoop.metrics.spi.NullContext
+2012-01-01 14:00:53,528 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 11
+2012-01-01 14:00:53,541 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2012-01-01 14:00:53,541 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 1202 loaded in 0 seconds.
+2012-01-01 14:00:53,596 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Invalid opcode, reached end of edit log Number of transactions found 4
+2012-01-01 14:00:53,597 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /tmp/hadoop-srikanth.sundarrajan/dfs/name/current/edits of size 1049092 edits # 4 loaded in 0 seconds.
+2012-01-01 14:00:53,606 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 1393 saved in 0 seconds.
+2012-01-01 14:00:53,680 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 1393 saved in 0 seconds.
+2012-01-01 14:00:53,705 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Finished loading FSImage in 770 msecs
+2012-01-01 14:00:53,726 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The reported blocks 0 needs additional 9 blocks to reach the threshold 0.9990 of total blocks 10. Safe mode will be turned off automatically.
+2012-01-01 14:00:53,733 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2012-01-01 14:00:53,794 INFO org.apache.hadoop.ipc.Server: Starting Socket Reader #1 for port 8020
+2012-01-01 14:00:53,797 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=NameNode, port=8020
+2012-01-01 14:00:53,799 INFO org.apache.hadoop.ipc.metrics.RpcDetailedMetrics: Initializing RPC Metrics with hostName=NameNode, port=8020
+2012-01-01 14:00:53,832 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Namenode up at: lr519me.mkhoj.com/127.0.0.1:8020
+2012-01-01 14:00:54,088 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2012-01-01 14:00:54,183 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2012-01-01 14:00:54,214 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50070
+2012-01-01 14:00:54,216 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50070 webServer.getConnectors()[0].getLocalPort() returned 50070
+2012-01-01 14:00:54,216 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50070
+2012-01-01 14:00:54,217 INFO org.mortbay.log: jetty-6.1.26
+2012-01-01 14:00:55,086 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50070
+2012-01-01 14:00:55,086 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Web-server up at: 0.0.0.0:50070
+2012-01-01 14:00:55,086 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2012-01-01 14:00:55,087 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 8020: starting
+2012-01-01 14:00:55,090 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 8020: starting
+2012-01-01 14:00:55,090 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 8020: starting
+2012-01-01 14:00:55,091 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 8020: starting
+2012-01-01 14:00:55,091 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 8020: starting
+2012-01-01 14:00:55,091 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 8020: starting
+2012-01-01 14:00:55,091 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 8020: starting
+2012-01-01 14:00:55,092 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 8020: starting
+2012-01-01 14:00:55,092 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 8020: starting
+2012-01-01 14:00:55,092 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 8020: starting
+2012-01-01 14:00:55,092 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 8020: starting
+2012-01-01 14:00:57,967 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 127.0.0.1:50010 storage DS-300736443-14.96.81.218-50010-1325388157545
+2012-01-01 14:00:57,970 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/127.0.0.1:50010
+2012-01-01 14:00:58,022 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode extension entered. 
+The reported blocks 9 has reached the threshold 0.9990 of total blocks 10. Safe mode will be turned off automatically in 29 seconds.
+2012-01-01 14:01:06,867 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=srikanth.sundarrajan	ip=/127.0.0.1	cmd=listStatus	src=/	dst=null	perm=null
+2012-01-01 14:01:06,876 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=srikanth.sundarrajan	ip=/127.0.0.1	cmd=listStatus	src=/data	dst=null	perm=null
+2012-01-01 14:01:06,886 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=srikanth.sundarrajan	ip=/127.0.0.1	cmd=listStatus	src=/new	dst=null	perm=null
+2012-01-01 14:01:18,051 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The reported blocks 10 has reached the threshold 0.9990 of total blocks 10. Safe mode will be turned off automatically in 9 seconds.
+2012-01-01 14:01:28,082 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Total number of blocks = 10
+2012-01-01 14:01:28,082 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of invalid blocks = 0
+2012-01-01 14:01:28,082 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of under-replicated blocks = 0
+2012-01-01 14:01:28,082 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of  over-replicated blocks = 0
+2012-01-01 14:01:28,082 INFO org.apache.hadoop.hdfs.StateChange: STATE* Leaving safe mode after 35 secs.
+2012-01-01 14:01:28,082 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode is OFF.
+2012-01-01 14:01:28,083 INFO org.apache.hadoop.hdfs.StateChange: STATE* Network topology has 1 racks and 1 datanodes
+2012-01-01 14:01:28,083 INFO org.apache.hadoop.hdfs.StateChange: STATE* UnderReplicatedBlocks has 0 blocks

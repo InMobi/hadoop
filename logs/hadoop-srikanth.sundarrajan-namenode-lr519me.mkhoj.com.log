@@ -1,0 +1,9 @@
+2011-11-26 13:39:47,902 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.heartbeatCheck: lost heartbeat from 127.0.0.1:50010
+2011-11-26 13:39:48,110 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/127.0.0.1:50010
+2011-11-26 13:39:48,111 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 127.0.0.1:50010 storage DS-1231794390-10.14.100.80-50010-1321874067821
+2011-11-26 13:39:48,111 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/127.0.0.1:50010
+2011-11-26 13:39:48,111 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/127.0.0.1:50010
+2011-11-26 13:51:00,399 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at lr519me.mkhoj.com/10.14.100.78
+************************************************************/

@@ -1,0 +1,27 @@
+2011-11-24 09:15:01,830 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_1214402793567888234_1387
+2011-11-24 09:15:01,958 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_5497756435203367695_1384
+2011-11-24 09:15:02,063 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-6308977448455456878_1410
+2011-11-24 09:15:02,174 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-5025810938121310774_1348
+2011-11-24 09:15:02,187 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 2242 msecs
+2011-11-24 09:15:02,350 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-7332489921386376832_1359
+2011-11-24 09:15:02,379 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-7146114145832793705_1391
+2011-11-24 09:15:02,610 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_2077625544740487384_1373
+2011-11-24 09:15:02,789 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-5686646535741645284_1394
+2011-11-24 09:15:03,032 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_8734841570696495867_1377
+2011-11-24 09:15:03,559 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_25653730985448966_1409
+2011-11-24 09:15:04,280 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_2392143142548021306_1398
+2011-11-24 10:03:38,237 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 42 msecs
+2011-11-24 11:03:35,838 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 71 msecs
+2011-11-24 11:04:25,273 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_3894804147918516311_1408
+2011-11-24 11:53:30,877 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeCommand action: DNA_REGISTER
+2011-11-24 11:53:34,009 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 134 msecs
+2011-11-24 12:50:47,242 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 25 msecs
+2011-11-24 13:50:45,510 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 41 msecs
+2011-11-24 14:50:47,022 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 211 msecs
+2011-11-24 15:50:45,133 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 30 msecs
+2011-11-24 16:50:46,423 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 18 msecs
+2011-11-24 18:37:17,153 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 42 msecs
+2011-11-24 18:50:44,729 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 15 msecs
+2011-11-24 19:50:46,132 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 153 msecs
+2011-11-24 21:03:51,897 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 20 msecs
+2011-11-24 21:50:46,988 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 24 msecs

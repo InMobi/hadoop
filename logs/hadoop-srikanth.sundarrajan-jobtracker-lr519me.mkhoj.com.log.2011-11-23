@@ -1,0 +1,13 @@
+2011-11-23 11:44:05,925 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2011-11-23 11:54:55,835 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201111221144_0001' of user 'srikanth.sundarrajan'
+2011-11-23 11:54:55,835 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /opt/hadoop-0.20.2-cdh3u0/logs/job_201111221144_0001_conf.xml
+2011-11-23 11:55:55,853 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201111221144_0002' of user 'srikanth.sundarrajan'
+2011-11-23 11:55:55,853 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /opt/hadoop-0.20.2-cdh3u0/logs/job_201111221144_0002_conf.xml
+2011-11-23 12:13:55,848 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201111221144_0003' of user 'srikanth.sundarrajan'
+2011-11-23 12:13:55,848 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /opt/hadoop-0.20.2-cdh3u0/logs/job_201111221144_0003_conf.xml
+2011-11-23 12:13:55,849 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201111221144_0004' of user 'srikanth.sundarrajan'
+2011-11-23 12:13:55,849 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /opt/hadoop-0.20.2-cdh3u0/logs/job_201111221144_0004_conf.xml
+2011-11-23 12:29:55,823 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201111221144_0005' of user 'srikanth.sundarrajan'
+2011-11-23 12:29:55,823 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /opt/hadoop-0.20.2-cdh3u0/logs/job_201111221144_0005_conf.xml
+2011-11-23 12:30:55,848 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201111221144_0006' of user 'srikanth.sundarrajan'
+2011-11-23 12:30:55,849 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /opt/hadoop-0.20.2-cdh3u0/logs/job_201111221144_0006_conf.xml

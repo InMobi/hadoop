@@ -1,0 +1,5 @@
+2012-01-02 10:28:00,167 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 10 blocks got processed in 21 msecs
+2012-01-02 10:46:02,788 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at static-167.28.99.14.tataidc.co.in/14.99.28.167
+************************************************************/

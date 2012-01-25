@@ -1,0 +1,9 @@
+2011-11-25 09:20:42,271 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 1357 msecs
+2011-11-25 09:50:44,909 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 17 msecs
+2011-11-25 10:50:46,358 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 14 msecs
+2011-11-25 11:50:44,780 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 31 msecs
+2011-11-25 12:50:47,015 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 13 msecs
+2011-11-25 13:50:45,593 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 175 msecs
+2011-11-25 14:50:47,216 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 242 msecs
+2011-11-25 15:50:45,606 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 28 msecs
+2011-11-25 16:50:45,438 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 298 blocks got processed in 14 msecs

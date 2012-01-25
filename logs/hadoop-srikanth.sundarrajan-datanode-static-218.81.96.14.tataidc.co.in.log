@@ -1,0 +1,146 @@
+2012-01-01 08:51:37,807 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = static-218.81.96.14.tataidc.co.in/14.96.81.218
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.2-cdh3u0
+STARTUP_MSG:   build =  -r 81256ad0f2e4ab2bd34b04f53d25a6c23686dd14; compiled by 'hudson' on Fri Mar 25 19:56:23 PDT 2011
+************************************************************/
+2012-01-01 08:51:38,272 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2012-01-01 08:51:38,364 INFO org.apache.hadoop.security.UserGroupInformation: JAAS Configuration already set up for Hadoop, not re-installing.
+2012-01-01 08:51:39,533 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 0 time(s).
+2012-01-01 08:51:40,534 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 1 time(s).
+2012-01-01 08:51:41,534 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 2 time(s).
+2012-01-01 08:51:42,535 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 3 time(s).
+2012-01-01 08:51:43,536 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 4 time(s).
+2012-01-01 08:51:44,536 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 5 time(s).
+2012-01-01 08:51:45,537 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 6 time(s).
+2012-01-01 08:51:46,538 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 7 time(s).
+2012-01-01 08:51:47,538 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 8 time(s).
+2012-01-01 08:51:48,539 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 9 time(s).
+2012-01-01 08:51:48,540 INFO org.apache.hadoop.ipc.RPC: Server at localhost/127.0.0.1:8020 not available yet, Zzzzz...
+2012-01-01 08:51:50,541 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 0 time(s).
+2012-01-01 08:51:51,542 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 1 time(s).
+2012-01-01 08:51:52,542 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 2 time(s).
+2012-01-01 08:51:53,543 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 3 time(s).
+2012-01-01 08:51:54,544 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 4 time(s).
+2012-01-01 08:51:55,544 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 5 time(s).
+2012-01-01 08:51:56,545 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 6 time(s).
+2012-01-01 08:51:57,545 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 7 time(s).
+2012-01-01 08:51:58,546 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 8 time(s).
+2012-01-01 08:51:59,547 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 9 time(s).
+2012-01-01 08:51:59,547 INFO org.apache.hadoop.ipc.RPC: Server at localhost/127.0.0.1:8020 not available yet, Zzzzz...
+2012-01-01 08:52:01,549 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 0 time(s).
+2012-01-01 08:52:02,550 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 1 time(s).
+2012-01-01 08:52:03,550 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 2 time(s).
+2012-01-01 08:52:04,551 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 3 time(s).
+2012-01-01 08:52:05,551 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 4 time(s).
+2012-01-01 08:52:06,552 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 5 time(s).
+2012-01-01 08:52:07,553 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 6 time(s).
+2012-01-01 08:52:08,553 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 7 time(s).
+2012-01-01 08:52:09,554 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 8 time(s).
+2012-01-01 08:52:10,554 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 9 time(s).
+2012-01-01 08:52:10,555 INFO org.apache.hadoop.ipc.RPC: Server at localhost/127.0.0.1:8020 not available yet, Zzzzz...
+2012-01-01 08:52:12,556 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 0 time(s).
+2012-01-01 08:52:13,557 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 1 time(s).
+2012-01-01 08:52:14,557 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 2 time(s).
+2012-01-01 08:52:15,558 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 3 time(s).
+2012-01-01 08:52:16,558 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 4 time(s).
+2012-01-01 08:52:17,559 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 5 time(s).
+2012-01-01 08:52:18,565 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 6 time(s).
+2012-01-01 08:52:19,566 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 7 time(s).
+2012-01-01 08:52:20,567 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 8 time(s).
+2012-01-01 08:52:21,568 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 9 time(s).
+2012-01-01 08:52:21,568 INFO org.apache.hadoop.ipc.RPC: Server at localhost/127.0.0.1:8020 not available yet, Zzzzz...
+2012-01-01 08:52:23,569 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 0 time(s).
+2012-01-01 08:52:24,570 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 1 time(s).
+2012-01-01 08:52:25,571 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 2 time(s).
+2012-01-01 08:52:26,571 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:8020. Already tried 3 time(s).
+2012-01-01 08:52:26,651 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at static-218.81.96.14.tataidc.co.in/14.96.81.218
+************************************************************/
+2012-01-01 08:52:35,625 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = static-218.81.96.14.tataidc.co.in/14.96.81.218
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.2-cdh3u0
+STARTUP_MSG:   build =  -r 81256ad0f2e4ab2bd34b04f53d25a6c23686dd14; compiled by 'hudson' on Fri Mar 25 19:56:23 PDT 2011
+************************************************************/
+2012-01-01 08:52:36,237 INFO org.apache.hadoop.security.UserGroupInformation: JAAS Configuration already set up for Hadoop, not re-installing.
+2012-01-01 08:52:36,381 INFO org.apache.hadoop.hdfs.server.common.Storage: Storage directory /tmp/hadoop-srikanth.sundarrajan/dfs/data is not formatted.
+2012-01-01 08:52:36,381 INFO org.apache.hadoop.hdfs.server.common.Storage: Formatting ...
+2012-01-01 08:52:36,642 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Registered FSDatasetStatusMBean
+2012-01-01 08:52:36,659 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Opened info server at 50010
+2012-01-01 08:52:36,709 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Balancing bandwith is 1048576 bytes/s
+2012-01-01 08:52:36,793 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2012-01-01 08:52:36,855 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2012-01-01 08:52:36,860 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50075
+2012-01-01 08:52:36,860 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50075 webServer.getConnectors()[0].getLocalPort() returned 50075
+2012-01-01 08:52:36,861 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50075
+2012-01-01 08:52:36,861 INFO org.mortbay.log: jetty-6.1.26
+2012-01-01 08:52:37,256 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50075
+2012-01-01 08:52:37,259 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=DataNode, sessionId=null
+2012-01-01 08:52:37,495 INFO org.apache.hadoop.ipc.Server: Starting Socket Reader #1 for port 50020
+2012-01-01 08:52:37,496 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=DataNode, port=50020
+2012-01-01 08:52:37,498 INFO org.apache.hadoop.ipc.metrics.RpcDetailedMetrics: Initializing RPC Metrics with hostName=DataNode, port=50020
+2012-01-01 08:52:37,499 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dnRegistration = DatanodeRegistration(static-218.81.96.14.tataidc.co.in:50010, storageID=, infoPort=50075, ipcPort=50020)
+2012-01-01 08:52:37,558 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: New storage id DS-300736443-14.96.81.218-50010-1325388157545 is assigned to data-node 127.0.0.1:50010
+2012-01-01 08:52:37,563 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeRegistration(127.0.0.1:50010, storageID=DS-300736443-14.96.81.218-50010-1325388157545, infoPort=50075, ipcPort=50020)In DataNode.run, data = FSDataset{dirpath='/tmp/hadoop-srikanth.sundarrajan/dfs/data/current'}
+2012-01-01 08:52:37,564 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2012-01-01 08:52:37,566 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 50020: starting
+2012-01-01 08:52:37,566 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 50020: starting
+2012-01-01 08:52:37,566 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 50020: starting
+2012-01-01 08:52:37,567 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: using BLOCKREPORT_INTERVAL of 3600000msec Initial delay: 0msec
+2012-01-01 08:52:37,569 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 50020: starting
+2012-01-01 08:52:37,582 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks got processed in 11 msecs
+2012-01-01 08:52:37,583 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting Periodic block scanner.
+2012-01-01 08:53:00,735 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_6557465261325558294_1001 src: /127.0.0.1:62863 dest: /127.0.0.1:50010
+2012-01-01 08:53:00,753 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:62863, dest: /127.0.0.1:50010, bytes: 59325, op: HDFS_WRITE, cliID: DFSClient_-1884678355, offset: 0, srvID: DS-300736443-14.96.81.218-50010-1325388157545, blockid: blk_6557465261325558294_1001, duration: 5344000
+2012-01-01 08:53:00,755 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_6557465261325558294_1001 terminating
+2012-01-01 08:53:15,120 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_5219533809707369055_1002 src: /127.0.0.1:62870 dest: /127.0.0.1:50010
+2012-01-01 08:53:15,140 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:62870, dest: /127.0.0.1:50010, bytes: 59325, op: HDFS_WRITE, cliID: DFSClient_-317625403, offset: 0, srvID: DS-300736443-14.96.81.218-50010-1325388157545, blockid: blk_5219533809707369055_1002, duration: 455000
+2012-01-01 08:53:15,140 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_5219533809707369055_1002 terminating
+2012-01-01 08:54:24,680 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_6557465261325558294_1001
+2012-01-01 08:55:45,730 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_5219533809707369055_1002
+2012-01-01 08:55:47,757 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_2075110134693634872_1003 src: /127.0.0.1:62949 dest: /127.0.0.1:50010
+2012-01-01 08:55:47,765 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:62949, dest: /127.0.0.1:50010, bytes: 59325, op: HDFS_WRITE, cliID: DFSClient_808733596, offset: 0, srvID: DS-300736443-14.96.81.218-50010-1325388157545, blockid: blk_2075110134693634872_1003, duration: 4537000
+2012-01-01 08:55:47,766 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_2075110134693634872_1003 terminating
+2012-01-01 08:57:42,746 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_2075110134693634872_1003
+2012-01-01 08:58:04,811 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_-4061422321352481586_1004 src: /127.0.0.1:63070 dest: /127.0.0.1:50010
+2012-01-01 08:58:04,817 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:63070, dest: /127.0.0.1:50010, bytes: 59325, op: HDFS_WRITE, cliID: DFSClient_1982296190, offset: 0, srvID: DS-300736443-14.96.81.218-50010-1325388157545, blockid: blk_-4061422321352481586_1004, duration: 454000
+2012-01-01 08:58:04,818 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_-4061422321352481586_1004 terminating
+2012-01-01 09:03:44,612 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_771090258370031553_1005 src: /127.0.0.1:63223 dest: /127.0.0.1:50010
+2012-01-01 09:03:44,633 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:63223, dest: /127.0.0.1:50010, bytes: 59325, op: HDFS_WRITE, cliID: DFSClient_-2066690273, offset: 0, srvID: DS-300736443-14.96.81.218-50010-1325388157545, blockid: blk_771090258370031553_1005, duration: 9741000
+2012-01-01 09:03:44,640 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_771090258370031553_1005 terminating
+2012-01-01 09:04:30,960 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_-1903365672096571873_1006 src: /127.0.0.1:63229 dest: /127.0.0.1:50010
+2012-01-01 09:04:30,975 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:63229, dest: /127.0.0.1:50010, bytes: 59325, op: HDFS_WRITE, cliID: DFSClient_-1985914827, offset: 0, srvID: DS-300736443-14.96.81.218-50010-1325388157545, blockid: blk_-1903365672096571873_1006, duration: 6119000
+2012-01-01 09:04:30,976 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_-1903365672096571873_1006 terminating
+2012-01-01 09:05:11,104 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_-5346162413073869713_1007 src: /127.0.0.1:63233 dest: /127.0.0.1:50010
+2012-01-01 09:05:11,112 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:63233, dest: /127.0.0.1:50010, bytes: 59325, op: HDFS_WRITE, cliID: DFSClient_-259906329, offset: 0, srvID: DS-300736443-14.96.81.218-50010-1325388157545, blockid: blk_-5346162413073869713_1007, duration: 5720000
+2012-01-01 09:05:11,113 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_-5346162413073869713_1007 terminating
+2012-01-01 09:05:14,836 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_-6510565868799951950_1008 src: /127.0.0.1:63237 dest: /127.0.0.1:50010
+2012-01-01 09:05:14,843 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:63237, dest: /127.0.0.1:50010, bytes: 59325, op: HDFS_WRITE, cliID: DFSClient_-237953505, offset: 0, srvID: DS-300736443-14.96.81.218-50010-1325388157545, blockid: blk_-6510565868799951950_1008, duration: 1106000
+2012-01-01 09:05:14,844 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_-6510565868799951950_1008 terminating
+2012-01-01 09:06:48,227 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_-2180572107040703598_1009 src: /127.0.0.1:63246 dest: /127.0.0.1:50010
+2012-01-01 09:06:48,233 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:63246, dest: /127.0.0.1:50010, bytes: 59325, op: HDFS_WRITE, cliID: DFSClient_-895008401, offset: 0, srvID: DS-300736443-14.96.81.218-50010-1325388157545, blockid: blk_-2180572107040703598_1009, duration: 3857000
+2012-01-01 09:06:48,234 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_-2180572107040703598_1009 terminating
+2012-01-01 09:11:34,955 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 9 blocks got processed in 3 msecs
+2012-01-01 09:15:32,928 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-2180572107040703598_1009
+2012-01-01 09:21:27,976 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-4061422321352481586_1004
+2012-01-01 09:28:11,073 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_771090258370031553_1005
+2012-01-01 09:31:40,098 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-5346162413073869713_1007
+2012-01-01 09:44:01,176 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-1903365672096571873_1006
+2012-01-01 09:47:07,198 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-6510565868799951950_1008
+2012-01-01 10:11:33,196 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 9 blocks got processed in 3 msecs
+2012-01-01 11:11:35,016 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 9 blocks got processed in 3 msecs
+2012-01-01 12:11:33,255 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 9 blocks got processed in 3 msecs
+2012-01-01 13:11:37,818 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 9 blocks got processed in 3192 msecs
+2012-01-01 13:25:50,330 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_5119824354915716101_1010 src: /127.0.0.1:64412 dest: /127.0.0.1:50010
+2012-01-01 13:25:50,722 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:64412, dest: /127.0.0.1:50010, bytes: 59325, op: HDFS_WRITE, cliID: DFSClient_356345463, offset: 0, srvID: DS-300736443-14.96.81.218-50010-1325388157545, blockid: blk_5119824354915716101_1010, duration: 99333000
+2012-01-01 13:25:50,783 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_5119824354915716101_1010 terminating
+2012-01-01 14:00:36,559 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at static-218.81.96.14.tataidc.co.in/14.96.81.218
+************************************************************/

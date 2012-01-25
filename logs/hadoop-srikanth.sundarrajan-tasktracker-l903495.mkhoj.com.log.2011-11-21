@@ -1,0 +1,377 @@
+2011-11-21 16:44:34,270 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = l903495.mkhoj.com/10.14.100.80
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.2-cdh3u0
+STARTUP_MSG:   build =  -r 81256ad0f2e4ab2bd34b04f53d25a6c23686dd14; compiled by 'hudson' on Fri Mar 25 19:56:23 PDT 2011
+************************************************************/
+2011-11-21 16:44:35,470 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2011-11-21 16:44:35,537 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2011-11-21 16:44:35,625 INFO org.apache.hadoop.mapred.TaskLogsTruncater: Initializing logs' truncater with mapRetainSize=-1 and reduceRetainSize=-1
+2011-11-21 16:44:35,634 INFO org.apache.hadoop.mapred.TaskTracker: Starting tasktracker with owner as srikanth.sundarrajan
+2011-11-21 16:44:35,726 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2011-11-21 16:44:35,944 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=TaskTracker, sessionId=
+2011-11-21 16:44:35,982 INFO org.apache.hadoop.ipc.Server: Starting Socket Reader #1 for port 52915
+2011-11-21 16:44:36,003 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=52915
+2011-11-21 16:44:36,079 INFO org.apache.hadoop.ipc.metrics.RpcDetailedMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=52915
+2011-11-21 16:44:36,082 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2011-11-21 16:44:36,082 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 52915: starting
+2011-11-21 16:44:36,085 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 52915: starting
+2011-11-21 16:44:36,085 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 52915: starting
+2011-11-21 16:44:36,086 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 52915: starting
+2011-11-21 16:44:36,086 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: localhost/127.0.0.1:52915
+2011-11-21 16:44:36,086 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_l903495.mkhoj.com:localhost/127.0.0.1:52915
+2011-11-21 16:44:36,087 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 52915: starting
+2011-11-21 16:44:36,388 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_l903495.mkhoj.com:localhost/127.0.0.1:52915
+2011-11-21 16:44:36,390 INFO org.apache.hadoop.mapred.TaskTracker:  Using MemoryCalculatorPlugin : null
+2011-11-21 16:44:36,427 WARN org.apache.hadoop.util.ProcessTree: setsid is not available on this machine. So not using it.
+2011-11-21 16:44:36,427 INFO org.apache.hadoop.util.ProcessTree: setsid exited with exit code 0
+2011-11-21 16:44:36,429 INFO org.apache.hadoop.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2011-11-21 16:44:36,429 INFO org.apache.hadoop.mapred.TaskTracker: ProcessTree implementation is missing on this system. TaskMemoryManager is disabled.
+2011-11-21 16:44:36,432 INFO org.apache.hadoop.mapred.IndexCache: IndexCache created with max memory = 10485760
+2011-11-21 16:44:36,446 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50060
+2011-11-21 16:44:36,446 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50060 webServer.getConnectors()[0].getLocalPort() returned 50060
+2011-11-21 16:44:36,446 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50060
+2011-11-21 16:44:36,447 INFO org.mortbay.log: jetty-6.1.26
+2011-11-21 16:44:37,120 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50060
+2011-11-21 16:44:37,120 INFO org.apache.hadoop.mapred.TaskTracker: FILE_CACHE_SIZE for mapOutputServlet set to : 2000
+2011-11-21 16:45:32,979 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction (registerTask): attempt_201111211643_0001_m_000002_0 task's state:UNASSIGNED
+2011-11-21 16:45:32,983 INFO org.apache.hadoop.mapred.TaskTracker: Trying to launch : attempt_201111211643_0001_m_000002_0 which needs 1 slots
+2011-11-21 16:45:32,983 INFO org.apache.hadoop.mapred.TaskTracker: In TaskLauncher, current free slots : 2 and trying to launch attempt_201111211643_0001_m_000002_0 which needs 1 slots
+2011-11-21 16:45:33,681 INFO org.apache.hadoop.mapred.JobLocalizer: Initializing user srikanth.sundarrajan on this TT.
+2011-11-21 16:45:34,959 INFO org.apache.hadoop.mapred.JvmManager: In JvmRunner constructed JVM ID: jvm_201111211643_0001_m_-1488647475
+2011-11-21 16:45:34,961 INFO org.apache.hadoop.mapred.JvmManager: JVM Runner jvm_201111211643_0001_m_-1488647475 spawned.
+2011-11-21 16:45:34,969 INFO org.apache.hadoop.mapred.TaskController: Writing commands to /tmp/hadoop-srikanth.sundarrajan/mapred/local/ttprivate/taskTracker/srikanth.sundarrajan/jobcache/job_201111211643_0001/attempt_201111211643_0001_m_000002_0/taskjvm.sh
+2011-11-21 16:45:36,461 INFO org.apache.hadoop.mapred.TaskTracker: JVM with ID: jvm_201111211643_0001_m_-1488647475 given task: attempt_201111211643_0001_m_000002_0
+2011-11-21 16:45:37,893 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201111211643_0001_m_000002_0 0.0% setup
+2011-11-21 16:45:37,899 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201111211643_0001_m_000002_0 is done.
+2011-11-21 16:45:37,899 INFO org.apache.hadoop.mapred.TaskTracker: reported output size for attempt_201111211643_0001_m_000002_0  was -1
+2011-11-21 16:45:37,900 INFO org.apache.hadoop.mapred.TaskTracker: addFreeSlot : current free slots : 2
+2011-11-21 16:45:38,092 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction (registerTask): attempt_201111211643_0001_m_000000_0 task's state:UNASSIGNED
+2011-11-21 16:45:38,093 INFO org.apache.hadoop.mapred.TaskTracker: Trying to launch : attempt_201111211643_0001_m_000000_0 which needs 1 slots
+2011-11-21 16:45:38,093 INFO org.apache.hadoop.mapred.TaskTracker: In TaskLauncher, current free slots : 2 and trying to launch attempt_201111211643_0001_m_000000_0 which needs 1 slots
+2011-11-21 16:45:38,094 INFO org.apache.hadoop.mapred.TaskTracker: Received KillTaskAction for task: attempt_201111211643_0001_m_000002_0
+2011-11-21 16:45:38,094 INFO org.apache.hadoop.mapred.TaskTracker: About to purge task: attempt_201111211643_0001_m_000002_0
+2011-11-21 16:45:38,094 INFO org.apache.hadoop.mapred.IndexCache: Map ID attempt_201111211643_0001_m_000002_0 not found in cache
+2011-11-21 16:45:38,152 INFO org.apache.hadoop.mapred.JvmManager: In JvmRunner constructed JVM ID: jvm_201111211643_0001_m_-883182565
+2011-11-21 16:45:38,153 INFO org.apache.hadoop.mapred.JvmManager: JVM Runner jvm_201111211643_0001_m_-883182565 spawned.
+2011-11-21 16:45:38,166 INFO org.apache.hadoop.mapred.TaskController: Writing commands to /tmp/hadoop-srikanth.sundarrajan/mapred/local/ttprivate/taskTracker/srikanth.sundarrajan/jobcache/job_201111211643_0001/attempt_201111211643_0001_m_000000_0/taskjvm.sh
+2011-11-21 16:45:38,463 INFO org.apache.hadoop.mapred.JvmManager: JVM : jvm_201111211643_0001_m_-1488647475 exited with exit code 0. Number of tasks it ran: 1
+2011-11-21 16:45:39,665 INFO org.apache.hadoop.mapred.TaskTracker: JVM with ID: jvm_201111211643_0001_m_-883182565 given task: attempt_201111211643_0001_m_000000_0
+2011-11-21 16:45:41,678 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201111211643_0001_m_000000_0 2.0% Sleeping... (1) ms left
+2011-11-21 16:45:41,679 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201111211643_0001_m_000000_0 is done.
+2011-11-21 16:45:41,679 INFO org.apache.hadoop.mapred.TaskTracker: reported output size for attempt_201111211643_0001_m_000000_0  was 12
+2011-11-21 16:45:41,680 INFO org.apache.hadoop.mapred.TaskTracker: addFreeSlot : current free slots : 2
+2011-11-21 16:45:42,006 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction (registerTask): attempt_201111211643_0001_r_000000_0 task's state:UNASSIGNED
+2011-11-21 16:45:42,014 INFO org.apache.hadoop.mapred.TaskTracker: Trying to launch : attempt_201111211643_0001_r_000000_0 which needs 1 slots
+2011-11-21 16:45:42,014 INFO org.apache.hadoop.mapred.TaskTracker: In TaskLauncher, current free slots : 1 and trying to launch attempt_201111211643_0001_r_000000_0 which needs 1 slots
+2011-11-21 16:45:42,094 INFO org.apache.hadoop.mapred.JvmManager: In JvmRunner constructed JVM ID: jvm_201111211643_0001_r_-1488647475
+2011-11-21 16:45:42,094 INFO org.apache.hadoop.mapred.JvmManager: JVM Runner jvm_201111211643_0001_r_-1488647475 spawned.
+2011-11-21 16:45:42,103 INFO org.apache.hadoop.mapred.TaskController: Writing commands to /tmp/hadoop-srikanth.sundarrajan/mapred/local/ttprivate/taskTracker/srikanth.sundarrajan/jobcache/job_201111211643_0001/attempt_201111211643_0001_r_000000_0/taskjvm.sh
+2011-11-21 16:45:42,446 INFO org.apache.hadoop.mapred.JvmManager: JVM : jvm_201111211643_0001_m_-883182565 exited with exit code 0. Number of tasks it ran: 1
+2011-11-21 16:45:43,458 INFO org.apache.hadoop.mapred.TaskTracker: JVM with ID: jvm_201111211643_0001_r_-1488647475 given task: attempt_201111211643_0001_r_000000_0
+2011-11-21 16:45:51,042 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201111211643_0001_r_000000_0 0.0% reduce > copy > 
+2011-11-21 16:45:51,549 INFO org.apache.hadoop.mapred.TaskTracker.clienttrace: src: 10.14.100.80:50060, dest: 10.14.100.80:52955, bytes: 12, op: MAPRED_SHUFFLE, cliID: attempt_201111211643_0001_m_000000_0, duration: 83739000
+2011-11-21 16:45:51,666 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201111211643_0001_r_000000_0 0.0% reduce > copy > 
+2011-11-21 16:45:51,816 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201111211643_0001_r_000000_0 0.0% reduce > copy > 
+2011-11-21 16:45:51,881 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201111211643_0001_r_000000_0 1.0% Sleeping... (1) ms left > reduce
+2011-11-21 16:45:51,884 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201111211643_0001_r_000000_0 is done.
+2011-11-21 16:45:51,884 INFO org.apache.hadoop.mapred.TaskTracker: reported output size for attempt_201111211643_0001_r_000000_0  was -1
+2011-11-21 16:45:51,885 INFO org.apache.hadoop.mapred.TaskTracker: addFreeSlot : current free slots : 1
+2011-11-21 16:45:52,185 INFO org.apache.hadoop.mapred.TaskTracker: LaunchTaskAction (registerTask): attempt_201111211643_0001_m_000001_0 task's state:UNASSIGNED
+2011-11-21 16:45:52,185 INFO org.apache.hadoop.mapred.TaskTracker: Trying to launch : attempt_201111211643_0001_m_000001_0 which needs 1 slots
+2011-11-21 16:45:52,185 INFO org.apache.hadoop.mapred.TaskTracker: In TaskLauncher, current free slots : 2 and trying to launch attempt_201111211643_0001_m_000001_0 which needs 1 slots
+2011-11-21 16:45:52,186 INFO org.apache.hadoop.mapred.TaskTracker: Received KillTaskAction for task: attempt_201111211643_0001_r_000000_0
+2011-11-21 16:45:52,186 INFO org.apache.hadoop.mapred.TaskTracker: About to purge task: attempt_201111211643_0001_r_000000_0
+2011-11-21 16:45:52,236 INFO org.apache.hadoop.mapred.JvmManager: In JvmRunner constructed JVM ID: jvm_201111211643_0001_m_-2039930074
+2011-11-21 16:45:52,237 INFO org.apache.hadoop.mapred.JvmManager: JVM Runner jvm_201111211643_0001_m_-2039930074 spawned.
+2011-11-21 16:45:52,516 INFO org.apache.hadoop.mapred.TaskController: Writing commands to /tmp/hadoop-srikanth.sundarrajan/mapred/local/ttprivate/taskTracker/srikanth.sundarrajan/jobcache/job_201111211643_0001/attempt_201111211643_0001_m_000001_0/taskjvm.sh
+2011-11-21 16:45:52,640 INFO org.apache.hadoop.mapred.JvmManager: JVM : jvm_201111211643_0001_r_-1488647475 exited with exit code 0. Number of tasks it ran: 1
+2011-11-21 16:45:53,542 INFO org.apache.hadoop.mapred.TaskTracker: JVM with ID: jvm_201111211643_0001_m_-2039930074 given task: attempt_201111211643_0001_m_000001_0
+2011-11-21 16:45:54,766 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201111211643_0001_m_000001_0 0.0% 
+2011-11-21 16:45:54,784 INFO org.apache.hadoop.mapred.TaskTracker: attempt_201111211643_0001_m_000001_0 0.0% cleanup
+2011-11-21 16:45:54,785 INFO org.apache.hadoop.mapred.TaskTracker: Task attempt_201111211643_0001_m_000001_0 is done.
+2011-11-21 16:45:54,785 INFO org.apache.hadoop.mapred.TaskTracker: reported output size for attempt_201111211643_0001_m_000001_0  was -1
+2011-11-21 16:45:54,785 INFO org.apache.hadoop.mapred.TaskTracker: addFreeSlot : current free slots : 2
+2011-11-21 16:45:55,041 INFO org.apache.hadoop.mapred.TaskTracker: Received 'KillJobAction' for job: job_201111211643_0001
+2011-11-21 16:45:55,042 INFO org.apache.hadoop.mapred.IndexCache: Map ID attempt_201111211643_0001_m_000001_0 not found in cache
+2011-11-21 16:45:55,045 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201111211643_0001 for user-log deletion with retainTimeStamp:1321960555043
+2011-11-21 16:45:55,304 INFO org.apache.hadoop.mapred.JvmManager: JVM : jvm_201111211643_0001_m_-2039930074 exited with exit code 0. Number of tasks it ran: 1
+2011-11-21 22:22:23,976 ERROR org.apache.hadoop.mapred.TaskTracker: Caught exception: java.io.IOException: Call to localhost/127.0.0.1:50300 failed on local exception: java.io.EOFException
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:1139)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1107)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:226)
+	at org.apache.hadoop.mapred.$Proxy4.heartbeat(Unknown Source)
+	at org.apache.hadoop.mapred.TaskTracker.transmitHeartBeat(TaskTracker.java:1759)
+	at org.apache.hadoop.mapred.TaskTracker.offerService(TaskTracker.java:1565)
+	at org.apache.hadoop.mapred.TaskTracker.run(TaskTracker.java:2330)
+	at org.apache.hadoop.mapred.TaskTracker.main(TaskTracker.java:3523)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:375)
+	at org.apache.hadoop.ipc.Client$Connection.receiveResponse(Client.java:812)
+	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:720)
+
+2011-11-21 22:22:23,976 INFO org.apache.hadoop.mapred.TaskTracker: Resending 'status' to 'localhost' with reponseId '-11103
+2011-11-21 22:22:24,977 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 0 time(s).
+2011-11-21 22:22:25,978 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 1 time(s).
+2011-11-21 22:22:26,978 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 2 time(s).
+2011-11-21 22:22:27,979 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 3 time(s).
+2011-11-21 22:22:28,979 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 4 time(s).
+2011-11-21 22:22:29,980 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 5 time(s).
+2011-11-21 22:22:30,980 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 6 time(s).
+2011-11-21 22:22:31,981 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 7 time(s).
+2011-11-21 22:22:32,984 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 8 time(s).
+2011-11-21 22:22:33,984 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 9 time(s).
+2011-11-21 22:22:33,985 ERROR org.apache.hadoop.mapred.TaskTracker: Caught exception: java.net.ConnectException: Call to localhost/127.0.0.1:50300 failed on connection exception: java.net.ConnectException: Connection refused
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:1131)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1107)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:226)
+	at org.apache.hadoop.mapred.$Proxy4.heartbeat(Unknown Source)
+	at org.apache.hadoop.mapred.TaskTracker.transmitHeartBeat(TaskTracker.java:1759)
+	at org.apache.hadoop.mapred.TaskTracker.offerService(TaskTracker.java:1565)
+	at org.apache.hadoop.mapred.TaskTracker.run(TaskTracker.java:2330)
+	at org.apache.hadoop.mapred.TaskTracker.main(TaskTracker.java:3523)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:408)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:425)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:532)
+	at org.apache.hadoop.ipc.Client$Connection.access$2300(Client.java:210)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1244)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1075)
+	... 6 more
+
+2011-11-21 22:22:33,985 INFO org.apache.hadoop.mapred.TaskTracker: Resending 'status' to 'localhost' with reponseId '-11103
+2011-11-21 22:22:34,986 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 0 time(s).
+2011-11-21 22:22:35,987 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 1 time(s).
+2011-11-21 22:22:36,987 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 2 time(s).
+2011-11-21 22:22:37,989 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 3 time(s).
+2011-11-21 22:23:09,250 INFO org.apache.hadoop.mapred.TaskTracker: Recieved RenitTrackerAction from JobTracker
+2011-11-21 22:23:09,255 INFO org.apache.hadoop.util.AsyncDiskService: Shutting down all AsyncDiskService threads...
+2011-11-21 22:23:09,259 INFO org.apache.hadoop.util.AsyncDiskService: All AsyncDiskService threads are terminated.
+2011-11-21 22:23:09,259 INFO org.apache.hadoop.util.MRAsyncDiskService: Deleting toBeDeleted directory.
+2011-11-21 22:23:09,260 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_l903495.mkhoj.com:localhost/127.0.0.1:52915
+2011-11-21 22:23:09,261 INFO org.apache.hadoop.ipc.Server: Stopping server on 52915
+2011-11-21 22:23:09,262 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 52915: exiting
+2011-11-21 22:23:09,262 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 52915
+2011-11-21 22:23:09,262 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 52915: exiting
+2011-11-21 22:23:09,262 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 52915: exiting
+2011-11-21 22:23:09,262 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 52915: exiting
+2011-11-21 22:23:09,262 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2011-11-21 22:23:09,263 WARN org.apache.hadoop.mapred.TaskTracker: Reinitializing local state
+2011-11-21 22:23:09,263 INFO org.apache.hadoop.mapred.TaskTracker: Starting tasktracker with owner as srikanth.sundarrajan
+2011-11-21 22:23:09,476 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=TaskTracker, sessionId= - already initialized
+2011-11-21 22:23:09,479 INFO org.apache.hadoop.ipc.Server: Starting Socket Reader #1 for port 56148
+2011-11-21 22:23:09,481 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=56148
+2011-11-21 22:23:09,481 INFO org.apache.hadoop.ipc.metrics.RpcDetailedMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=56148
+2011-11-21 22:23:09,482 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2011-11-21 22:23:09,484 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 56148: starting
+2011-11-21 22:23:09,485 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 56148: starting
+2011-11-21 22:23:09,486 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 56148: starting
+2011-11-21 22:23:09,486 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 56148: starting
+2011-11-21 22:23:09,486 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 56148: starting
+2011-11-21 22:23:09,486 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: localhost/127.0.0.1:56148
+2011-11-21 22:23:09,486 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_l903495.mkhoj.com:localhost/127.0.0.1:56148
+2011-11-21 22:23:09,492 INFO org.apache.hadoop.mapred.TaskTracker:  Using MemoryCalculatorPlugin : null
+2011-11-21 22:23:09,492 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_l903495.mkhoj.com:localhost/127.0.0.1:56148
+2011-11-21 22:23:09,492 INFO org.apache.hadoop.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2011-11-21 22:23:09,492 INFO org.apache.hadoop.mapred.TaskTracker: ProcessTree implementation is missing on this system. TaskMemoryManager is disabled.
+2011-11-21 22:23:09,492 INFO org.apache.hadoop.mapred.IndexCache: IndexCache created with max memory = 10485760
+2011-11-21 22:29:41,264 ERROR org.apache.hadoop.mapred.TaskTracker: Caught exception: java.io.IOException: Call to localhost/127.0.0.1:50300 failed on local exception: java.io.EOFException
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:1139)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1107)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:226)
+	at org.apache.hadoop.mapred.$Proxy4.heartbeat(Unknown Source)
+	at org.apache.hadoop.mapred.TaskTracker.transmitHeartBeat(TaskTracker.java:1759)
+	at org.apache.hadoop.mapred.TaskTracker.offerService(TaskTracker.java:1565)
+	at org.apache.hadoop.mapred.TaskTracker.run(TaskTracker.java:2330)
+	at org.apache.hadoop.mapred.TaskTracker.main(TaskTracker.java:3523)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:375)
+	at org.apache.hadoop.ipc.Client$Connection.receiveResponse(Client.java:812)
+	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:720)
+
+2011-11-21 22:29:41,264 INFO org.apache.hadoop.mapred.TaskTracker: Resending 'status' to 'localhost' with reponseId '-9806
+2011-11-21 22:29:42,265 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 0 time(s).
+2011-11-21 22:29:43,266 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 1 time(s).
+2011-11-21 22:29:44,266 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 2 time(s).
+2011-11-21 22:29:45,267 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 3 time(s).
+2011-11-21 22:29:46,268 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 4 time(s).
+2011-11-21 22:29:47,268 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 5 time(s).
+2011-11-21 22:29:48,269 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 6 time(s).
+2011-11-21 22:29:49,269 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 7 time(s).
+2011-11-21 22:29:50,270 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 8 time(s).
+2011-11-21 22:29:51,270 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 9 time(s).
+2011-11-21 22:29:51,271 ERROR org.apache.hadoop.mapred.TaskTracker: Caught exception: java.net.ConnectException: Call to localhost/127.0.0.1:50300 failed on connection exception: java.net.ConnectException: Connection refused
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:1131)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1107)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:226)
+	at org.apache.hadoop.mapred.$Proxy4.heartbeat(Unknown Source)
+	at org.apache.hadoop.mapred.TaskTracker.transmitHeartBeat(TaskTracker.java:1759)
+	at org.apache.hadoop.mapred.TaskTracker.offerService(TaskTracker.java:1565)
+	at org.apache.hadoop.mapred.TaskTracker.run(TaskTracker.java:2330)
+	at org.apache.hadoop.mapred.TaskTracker.main(TaskTracker.java:3523)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:408)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:425)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:532)
+	at org.apache.hadoop.ipc.Client$Connection.access$2300(Client.java:210)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1244)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1075)
+	... 6 more
+
+2011-11-21 22:29:51,271 INFO org.apache.hadoop.mapred.TaskTracker: Resending 'status' to 'localhost' with reponseId '-9806
+2011-11-21 22:29:52,272 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 0 time(s).
+2011-11-21 22:29:53,273 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 1 time(s).
+2011-11-21 22:29:54,273 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 2 time(s).
+2011-11-21 22:29:55,274 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 3 time(s).
+2011-11-21 22:29:56,275 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 4 time(s).
+2011-11-21 22:30:26,764 INFO org.apache.hadoop.mapred.TaskTracker: Recieved RenitTrackerAction from JobTracker
+2011-11-21 22:30:26,768 INFO org.apache.hadoop.util.AsyncDiskService: Shutting down all AsyncDiskService threads...
+2011-11-21 22:30:26,771 INFO org.apache.hadoop.util.AsyncDiskService: All AsyncDiskService threads are terminated.
+2011-11-21 22:30:26,771 INFO org.apache.hadoop.util.MRAsyncDiskService: Deleting toBeDeleted directory.
+2011-11-21 22:30:26,773 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_l903495.mkhoj.com:localhost/127.0.0.1:56148
+2011-11-21 22:30:26,774 INFO org.apache.hadoop.ipc.Server: Stopping server on 56148
+2011-11-21 22:30:26,775 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 56148: exiting
+2011-11-21 22:30:26,775 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 56148
+2011-11-21 22:30:26,775 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 56148: exiting
+2011-11-21 22:30:26,775 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 56148: exiting
+2011-11-21 22:30:26,776 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 56148: exiting
+2011-11-21 22:30:26,777 WARN org.apache.hadoop.mapred.TaskTracker: Reinitializing local state
+2011-11-21 22:30:26,777 INFO org.apache.hadoop.mapred.TaskTracker: Starting tasktracker with owner as srikanth.sundarrajan
+2011-11-21 22:30:26,787 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2011-11-21 22:30:27,033 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=TaskTracker, sessionId= - already initialized
+2011-11-21 22:30:27,041 INFO org.apache.hadoop.ipc.Server: Starting Socket Reader #1 for port 56256
+2011-11-21 22:30:27,042 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=56256
+2011-11-21 22:30:27,042 INFO org.apache.hadoop.ipc.metrics.RpcDetailedMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=56256
+2011-11-21 22:30:27,043 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2011-11-21 22:30:27,043 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 56256: starting
+2011-11-21 22:30:27,045 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 56256: starting
+2011-11-21 22:30:27,045 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 56256: starting
+2011-11-21 22:30:27,046 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 56256: starting
+2011-11-21 22:30:27,046 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 56256: starting
+2011-11-21 22:30:27,046 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: localhost/127.0.0.1:56256
+2011-11-21 22:30:27,046 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_l903495.mkhoj.com:localhost/127.0.0.1:56256
+2011-11-21 22:30:27,051 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_l903495.mkhoj.com:localhost/127.0.0.1:56256
+2011-11-21 22:30:27,052 INFO org.apache.hadoop.mapred.TaskTracker:  Using MemoryCalculatorPlugin : null
+2011-11-21 22:30:27,052 INFO org.apache.hadoop.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2011-11-21 22:30:27,052 INFO org.apache.hadoop.mapred.TaskTracker: ProcessTree implementation is missing on this system. TaskMemoryManager is disabled.
+2011-11-21 22:30:27,052 INFO org.apache.hadoop.mapred.IndexCache: IndexCache created with max memory = 10485760
+2011-11-21 22:34:37,989 ERROR org.apache.hadoop.mapred.TaskTracker: Caught exception: java.io.IOException: Call to localhost/127.0.0.1:50300 failed on local exception: java.io.EOFException
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:1139)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1107)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:226)
+	at org.apache.hadoop.mapred.$Proxy4.heartbeat(Unknown Source)
+	at org.apache.hadoop.mapred.TaskTracker.transmitHeartBeat(TaskTracker.java:1759)
+	at org.apache.hadoop.mapred.TaskTracker.offerService(TaskTracker.java:1565)
+	at org.apache.hadoop.mapred.TaskTracker.run(TaskTracker.java:2330)
+	at org.apache.hadoop.mapred.TaskTracker.main(TaskTracker.java:3523)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:375)
+	at org.apache.hadoop.ipc.Client$Connection.receiveResponse(Client.java:812)
+	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:720)
+
+2011-11-21 22:34:37,989 INFO org.apache.hadoop.mapred.TaskTracker: Resending 'status' to 'localhost' with reponseId '-8975
+2011-11-21 22:34:38,990 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 0 time(s).
+2011-11-21 22:34:39,991 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 1 time(s).
+2011-11-21 22:34:40,992 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 2 time(s).
+2011-11-21 22:34:41,993 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 3 time(s).
+2011-11-21 22:34:42,993 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 4 time(s).
+2011-11-21 22:34:43,994 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 5 time(s).
+2011-11-21 22:34:44,994 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 6 time(s).
+2011-11-21 22:34:45,995 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 7 time(s).
+2011-11-21 22:34:46,995 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 8 time(s).
+2011-11-21 22:34:47,996 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 9 time(s).
+2011-11-21 22:34:47,996 ERROR org.apache.hadoop.mapred.TaskTracker: Caught exception: java.net.ConnectException: Call to localhost/127.0.0.1:50300 failed on connection exception: java.net.ConnectException: Connection refused
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:1131)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1107)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:226)
+	at org.apache.hadoop.mapred.$Proxy4.heartbeat(Unknown Source)
+	at org.apache.hadoop.mapred.TaskTracker.transmitHeartBeat(TaskTracker.java:1759)
+	at org.apache.hadoop.mapred.TaskTracker.offerService(TaskTracker.java:1565)
+	at org.apache.hadoop.mapred.TaskTracker.run(TaskTracker.java:2330)
+	at org.apache.hadoop.mapred.TaskTracker.main(TaskTracker.java:3523)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:408)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:425)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:532)
+	at org.apache.hadoop.ipc.Client$Connection.access$2300(Client.java:210)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1244)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1075)
+	... 6 more
+
+2011-11-21 22:34:47,997 INFO org.apache.hadoop.mapred.TaskTracker: Resending 'status' to 'localhost' with reponseId '-8975
+2011-11-21 22:34:48,997 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 0 time(s).
+2011-11-21 22:34:49,997 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 1 time(s).
+2011-11-21 22:34:50,998 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 2 time(s).
+2011-11-21 22:34:51,998 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 3 time(s).
+2011-11-21 22:34:52,999 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 4 time(s).
+2011-11-21 22:34:53,999 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 5 time(s).
+2011-11-21 22:34:55,000 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 6 time(s).
+2011-11-21 22:34:56,001 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 7 time(s).
+2011-11-21 22:34:57,001 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 8 time(s).
+2011-11-21 22:34:58,002 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 9 time(s).
+2011-11-21 22:34:58,003 ERROR org.apache.hadoop.mapred.TaskTracker: Caught exception: java.net.ConnectException: Call to localhost/127.0.0.1:50300 failed on connection exception: java.net.ConnectException: Connection refused
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:1131)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1107)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:226)
+	at org.apache.hadoop.mapred.$Proxy4.heartbeat(Unknown Source)
+	at org.apache.hadoop.mapred.TaskTracker.transmitHeartBeat(TaskTracker.java:1759)
+	at org.apache.hadoop.mapred.TaskTracker.offerService(TaskTracker.java:1565)
+	at org.apache.hadoop.mapred.TaskTracker.run(TaskTracker.java:2330)
+	at org.apache.hadoop.mapred.TaskTracker.main(TaskTracker.java:3523)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:408)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:425)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:532)
+	at org.apache.hadoop.ipc.Client$Connection.access$2300(Client.java:210)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1244)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1075)
+	... 6 more
+
+2011-11-21 22:34:58,003 INFO org.apache.hadoop.mapred.TaskTracker: Resending 'status' to 'localhost' with reponseId '-8975
+2011-11-21 22:34:59,007 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 0 time(s).
+2011-11-21 22:35:00,007 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:50300. Already tried 1 time(s).
+2011-11-21 22:35:31,445 INFO org.apache.hadoop.mapred.TaskTracker: Recieved RenitTrackerAction from JobTracker
+2011-11-21 22:35:31,450 INFO org.apache.hadoop.util.AsyncDiskService: Shutting down all AsyncDiskService threads...
+2011-11-21 22:35:31,452 INFO org.apache.hadoop.util.AsyncDiskService: All AsyncDiskService threads are terminated.
+2011-11-21 22:35:31,452 INFO org.apache.hadoop.util.MRAsyncDiskService: Deleting toBeDeleted directory.
+2011-11-21 22:35:31,453 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_l903495.mkhoj.com:localhost/127.0.0.1:56256
+2011-11-21 22:35:31,454 INFO org.apache.hadoop.ipc.Server: Stopping server on 56256
+2011-11-21 22:35:31,454 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 56256: exiting
+2011-11-21 22:35:31,454 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 56256
+2011-11-21 22:35:31,454 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 56256: exiting
+2011-11-21 22:35:31,454 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 56256: exiting
+2011-11-21 22:35:31,455 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 56256: exiting
+2011-11-21 22:35:31,455 WARN org.apache.hadoop.mapred.TaskTracker: Reinitializing local state
+2011-11-21 22:35:31,456 INFO org.apache.hadoop.mapred.TaskTracker: Starting tasktracker with owner as srikanth.sundarrajan
+2011-11-21 22:35:31,471 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2011-11-21 22:35:31,642 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=TaskTracker, sessionId= - already initialized
+2011-11-21 22:35:31,644 INFO org.apache.hadoop.ipc.Server: Starting Socket Reader #1 for port 56311
+2011-11-21 22:35:31,644 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=56311
+2011-11-21 22:35:31,645 INFO org.apache.hadoop.ipc.metrics.RpcDetailedMetrics: Initializing RPC Metrics with hostName=TaskTracker, port=56311
+2011-11-21 22:35:31,645 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2011-11-21 22:35:31,645 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 56311: starting
+2011-11-21 22:35:31,646 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 56311: starting
+2011-11-21 22:35:31,646 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 56311: starting
+2011-11-21 22:35:31,646 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 56311: starting
+2011-11-21 22:35:31,646 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 56311: starting
+2011-11-21 22:35:31,646 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: localhost/127.0.0.1:56311
+2011-11-21 22:35:31,646 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_l903495.mkhoj.com:localhost/127.0.0.1:56311
+2011-11-21 22:35:31,652 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_l903495.mkhoj.com:localhost/127.0.0.1:56311
+2011-11-21 22:35:31,652 INFO org.apache.hadoop.mapred.TaskTracker:  Using MemoryCalculatorPlugin : null
+2011-11-21 22:35:31,652 INFO org.apache.hadoop.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2011-11-21 22:35:31,652 INFO org.apache.hadoop.mapred.TaskTracker: ProcessTree implementation is missing on this system. TaskMemoryManager is disabled.
+2011-11-21 22:35:31,653 INFO org.apache.hadoop.mapred.IndexCache: IndexCache created with max memory = 10485760
