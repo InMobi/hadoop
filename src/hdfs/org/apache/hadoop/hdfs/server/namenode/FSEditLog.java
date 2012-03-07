@@ -874,7 +874,13 @@ public class FSEditLog {
         FSImage.LOG.error("Last 4 opcodes at offsets:" +
           sb, ioe);
       }
-      throw ioe;
+
+      if (tracker.getPos() + 2048 < edits.length()) {
+        throw ioe;
+      } else {
+          FSImage.LOG.warn("Currently at position " + tracker.getPos() +
+                  ". Total length = " + edits.length() + ". Ignoring error", ioe);
+      }
     } finally {
       in.close();
     }
