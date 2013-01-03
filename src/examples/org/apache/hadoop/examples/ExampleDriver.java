@@ -61,6 +61,8 @@ public class ExampleDriver {
       pgd.addClass("teragen", TeraGen.class, "Generate data for the terasort");
       pgd.addClass("terasort", TeraSort.class, "Run the terasort");
       pgd.addClass("teravalidate", TeraValidate.class, "Checking results of terasort");
+      pgd.addClass("oldwordcount", OldWordCount.class, "old wordcount");
+      pgd.addClass("newwordcount", NewWordCount.class, "new wordcount");
       pgd.driver(argv);
       
       // Success
